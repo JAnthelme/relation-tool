@@ -106,7 +106,7 @@ Use `show` to print a relation to stdout without formatting:
 *> myrel
 Relvar {attributes = fromList [("bar",Double),("foo",[Char])], rdata = fromList [fromList [("bar",2.718281),("foo","xyz")],fromList [("bar",3.145159),("foo","abc")]]}
 ```
-... or use the view functions FIXMEHL to format it as a table:
+... or use the [view functions](https://janthelme.github.io/relation-tool/relation-tool-0.1.0.0/Relvar-Pretty.html#g:2) FIXMEHL to give it in a tabular format:
 ```sh
 *> viewAll myrel
 bar       |foo
@@ -192,7 +192,7 @@ kangaroo  |mammals
 ----------+----------
 lion      |mammals   
 ```
-(check the explanation on `liftBoolFun` here FIXMEHL).
+(check the explanation on `liftBoolFun` [here](https://janthelme.github.io/relation-tool/relation-tool-0.1.0.0/Algebra-Function.html) FIXME).
 
 Given the additional relation:
 ```sh
@@ -276,7 +276,7 @@ dolphin   |mammals   |water
 ----------+----------+----------
 hippo     |mammals   |water     
 ```
-(check the explanation on `liftBoolFun2` here FIXMEHL).
+(check the explanation on `liftBoolFun2` [here](https://janthelme.github.io/relation-tool/relation-tool-0.1.0.0/Algebra-Function.html) FIXMEHL).
 
 Finally if we join a third relation:
 ```sh
