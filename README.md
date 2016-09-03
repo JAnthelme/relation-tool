@@ -10,7 +10,6 @@ From the shell prompt:
 git clone https://github.com/janthelme/relation-tool.git
 cd relation-tool
 stack build
-stack exec basics-exe
 ```
 There are 3 executable examples available: basics-exe, csv-exe and jcdate-exe.
 
