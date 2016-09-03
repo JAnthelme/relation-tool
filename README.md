@@ -16,7 +16,7 @@ There are 3 executable examples available: basics-exe, csv-exe and jcdate-exe.
 
 
 ## Documentation
-Check the [Haddock documentation](./.stack-work/install/x86_64-linux/lts-6.13/7.10.3/doc/relation-tool-0.1.0.0/index.html). FIXMEHL
+Check the [Haddock documentation](./doc/relation-tool-0.1.0.0/index.html). FIXMEHL
 
 ## Basics
 For the proper definition of most concepts, see C.J. Date, "*An Introduction to Database Systems*" Eighth Edition, chapter 7 ('*Relational Algebra*').
