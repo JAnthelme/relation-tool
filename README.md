@@ -86,7 +86,7 @@ myrel = relvar ["foo", "bar"] [typeOf (undefined::String), typeOf (undefined::Do
         ,[S "xyz", D 2.718281]
         ]
 ```
-Since Haskell does not provide `TypeRep` literals, and because typing `typeOf (undefined::String)` is tedious, some predefined `TypeRep` "constants" are [available](https://janthelme.github.io/relation-tool/relation-tool-0.1.0.0/Relvar.html#g:10) (FIXME: hyperlink to Haddock). Relations can then be created that way:
+Since Haskell does not provide `TypeRep` literals, and because typing `typeOf (undefined::String)` is tedious, some predefined `TypeRep` ["constants"](https://janthelme.github.io/relation-tool/relation-tool-0.1.0.0/Relvar.html#g:10) are available. Relations can then be created that way:
 ```haskell
 myrel = relvar ["foo", "bar"] [tyS, tyD]
         [[S "abc", D 3.145159]
