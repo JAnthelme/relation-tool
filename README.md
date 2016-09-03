@@ -63,7 +63,7 @@ data Table = Table { header :: [String], tdata :: [[Elem]]} deriving (Show, Eq, 
 
 ## Getting Started
 ### Elem
-Lists of Elem, `[Elem]`, represent heterogeneous lists. They are necessary to define tuples and relations. Here is how to create such a list:
+Lists of Elem, `[Elem]`, represent heterogeneous lists. They are necessary to define tuples and relations. To create such a list:
 ```haskell
 mylist = [S "foo", D 3.14159, A [J 123, DD $ fromGregorian 2016 8 19], T2 (I 456, B True)]
 ```
@@ -106,7 +106,7 @@ Use `show` to print a relation to stdout without formatting:
 *> myrel
 Relvar {attributes = fromList [("bar",Double),("foo",[Char])], rdata = fromList [fromList [("bar",2.718281),("foo","xyz")],fromList [("bar",3.145159),("foo","abc")]]}
 ```
-... or use the [view functions](https://janthelme.github.io/relation-tool/relation-tool-0.1.0.0/Relvar-Pretty.html#g:2) to give it in a tabular format:
+... or use the [view functions](https://janthelme.github.io/relation-tool/relation-tool-0.1.0.0/Relvar-Pretty.html#g:2) to have it in a tabular format:
 ```sh
 *> viewAll myrel
 bar       |foo

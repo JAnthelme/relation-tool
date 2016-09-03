@@ -1,0 +1,1526 @@
+
+==================== FINAL INTERFACE ====================
+2016-09-03 15:13:48.346889 UTC
+
+interface relat_8Cyn3M6UKgN11sASBif9n4:Relvar.Pretty.BoxesText 7103
+  interface hash: b554f62b37b9c89afb0ccf801c9c251f
+  ABI hash: 28358662ba48c1326c1faa3396bc8fdf
+  export-list hash: e733078d63c949f06f5eff18a2579972
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 0b29748c7fa81414598c2962590b4e75
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Relvar.Pretty.BoxesText./+/
+  Relvar.Pretty.BoxesText.//
+  Relvar.Pretty.BoxesText.<+>
+  Relvar.Pretty.BoxesText.<>
+  Relvar.Pretty.BoxesText.align
+  Relvar.Pretty.BoxesText.alignHoriz
+  Relvar.Pretty.BoxesText.alignVert
+  Relvar.Pretty.BoxesText.bottom
+  Relvar.Pretty.BoxesText.center1
+  Relvar.Pretty.BoxesText.center2
+  Relvar.Pretty.BoxesText.char
+  Relvar.Pretty.BoxesText.columns
+  Relvar.Pretty.BoxesText.emptyBox
+  Relvar.Pretty.BoxesText.hcat
+  Relvar.Pretty.BoxesText.hsep
+  Relvar.Pretty.BoxesText.left
+  Relvar.Pretty.BoxesText.moveDown
+  Relvar.Pretty.BoxesText.moveLeft
+  Relvar.Pretty.BoxesText.moveRight
+  Relvar.Pretty.BoxesText.moveUp
+  Relvar.Pretty.BoxesText.nullBox
+  Relvar.Pretty.BoxesText.para
+  Relvar.Pretty.BoxesText.printBox
+  Relvar.Pretty.BoxesText.punctuateH
+  Relvar.Pretty.BoxesText.punctuateV
+  Relvar.Pretty.BoxesText.render
+  Relvar.Pretty.BoxesText.right
+  Relvar.Pretty.BoxesText.text
+  Relvar.Pretty.BoxesText.top
+  Relvar.Pretty.BoxesText.vcat
+  Relvar.Pretty.BoxesText.vsep
+  Relvar.Pretty.BoxesText.Alignment{Relvar.Pretty.BoxesText.AlignCenter1 Relvar.Pretty.BoxesText.AlignCenter2 Relvar.Pretty.BoxesText.AlignFirst Relvar.Pretty.BoxesText.AlignLast}
+  Relvar.Pretty.BoxesText.Box{Relvar.Pretty.BoxesText.cols Relvar.Pretty.BoxesText.rows}
+module dependencies:
+package dependencies: array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA
+                      base-4.8.2.0* binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59 ghc-prim-0.4.0.0
+                      integer-gmp-1.0.0.0 split-0.2.3.1@split_2IxbOPGrTSq7kFrJA7odmE
+                      text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne*
+orphans: base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+family instance modules: base-4.8.2.0:Control.Applicative
+                         base-4.8.2.0:Data.Either base-4.8.2.0:Data.Functor.Identity
+                         base-4.8.2.0:Data.Monoid base-4.8.2.0:Data.Type.Equality
+                         base-4.8.2.0:Data.Void base-4.8.2.0:GHC.Exts
+                         base-4.8.2.0:GHC.Generics
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+import  -/  base-4.8.2.0:Control.Arrow ab7f126fed349de468f94ac777dc8f4e
+import  -/  base-4.8.2.0:Data.Foldable 2ce969969ad5231eb40bd713f94f05ad
+import  -/  base-4.8.2.0:Data.Int 1419fa899a36eeb2bd16fdb7f0a89738
+import  -/  base-4.8.2.0:Data.List 3f0782c8d4bf50eecefcd5ea1798aac8
+import  -/  base-4.8.2.0:Data.OldList d8fd80b0e14aa085ce6219cd89dad356
+import  -/  base-4.8.2.0:Data.String c2d7fed27a27fee276c179af07290091
+import  -/  base-4.8.2.0:Data.Tuple 012ad951a59a9d85fe1de36a2f012986
+import  -/  base-4.8.2.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.2.0:GHC.List 0c736920522bbd14b770342776012ab6
+import  -/  base-4.8.2.0:GHC.Num 9f42750c866f5832ca565146bd660c60
+import  -/  base-4.8.2.0:GHC.Read b423b4506a014855edbd329b567629f3
+import  -/  base-4.8.2.0:GHC.Real 1281efa9baf803bc7859d7efb89a38b3
+import  -/  base-4.8.2.0:GHC.Show 0e1d8380a8fb0cfb07ebeda3b70cbf38
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+import  -/  split-0.2.3.1@split_2IxbOPGrTSq7kFrJA7odmE:Data.List.Split 487cc1966f0f25916f1ba58bdff4b0ee
+import  -/  split-0.2.3.1@split_2IxbOPGrTSq7kFrJA7odmE:Data.List.Split.Internals ec8cf5264ec78ab060cadb7ee5b994f0
+import  -/  text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text 677c532e2dd56476a11a0a8a53880ce7
+import  -/  text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.IO 4cee1d85a3c7d8e2e10b21ed89777999
+import  -/  text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Internal d9b6b9a9dd535595b612aea5738b7466
+import  -/  text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show 081cc243e944015e37c793c3b0ebfefd
+9c42efabc3e0d6069b5f643e776cfdb2
+  $fEqAlignment :: GHC.Classes.Eq Relvar.Pretty.BoxesText.Alignment
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Relvar.Pretty.BoxesText.Alignment
+                  Relvar.Pretty.BoxesText.$fEqAlignment_$c==
+                  Relvar.Pretty.BoxesText.$fEqAlignment_$c/= -}
+9c42efabc3e0d6069b5f643e776cfdb2
+  $fEqAlignment_$c/= ::
+    Relvar.Pretty.BoxesText.Alignment
+    -> Relvar.Pretty.BoxesText.Alignment -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: (\ a3 :: Relvar.Pretty.BoxesText.Alignment
+                   b1 :: Relvar.Pretty.BoxesText.Alignment ->
+                 case a3 of wild {
+                   Relvar.Pretty.BoxesText.AlignFirst
+                   -> case b1 of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        Relvar.Pretty.BoxesText.AlignFirst -> GHC.Types.False }
+                   Relvar.Pretty.BoxesText.AlignCenter1
+                   -> case b1 of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        Relvar.Pretty.BoxesText.AlignCenter1 -> GHC.Types.False }
+                   Relvar.Pretty.BoxesText.AlignCenter2
+                   -> case b1 of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        Relvar.Pretty.BoxesText.AlignCenter2 -> GHC.Types.False }
+                   Relvar.Pretty.BoxesText.AlignLast
+                   -> case b1 of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        Relvar.Pretty.BoxesText.AlignLast -> GHC.Types.False } }) -}
+9c42efabc3e0d6069b5f643e776cfdb2
+  $fEqAlignment_$c== ::
+    Relvar.Pretty.BoxesText.Alignment
+    -> Relvar.Pretty.BoxesText.Alignment -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: (\ ds :: Relvar.Pretty.BoxesText.Alignment
+                   ds1 :: Relvar.Pretty.BoxesText.Alignment ->
+                 case ds of wild {
+                   Relvar.Pretty.BoxesText.AlignFirst
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        Relvar.Pretty.BoxesText.AlignFirst -> GHC.Types.True }
+                   Relvar.Pretty.BoxesText.AlignCenter1
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        Relvar.Pretty.BoxesText.AlignCenter1 -> GHC.Types.True }
+                   Relvar.Pretty.BoxesText.AlignCenter2
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        Relvar.Pretty.BoxesText.AlignCenter2 -> GHC.Types.True }
+                   Relvar.Pretty.BoxesText.AlignLast
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        Relvar.Pretty.BoxesText.AlignLast -> GHC.Types.True } }) -}
+1209fdc3400ed5df9c18be803fee1ba3
+  $fIsStringBox :: Data.String.IsString Relvar.Pretty.BoxesText.Box
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,1*U>m, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Relvar.Pretty.BoxesText.$fIsStringBox_$cfromString
+                  `cast`
+                (Sym (Data.String.NTCo:IsString[0]) <Relvar.Pretty.BoxesText.Box>_N) -}
+3fef6a767b4985f87686c3d6e6642324
+  $fIsStringBox1 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 1) -}
+fd37075ee65f1ec1b739c7814299434a
+  $fIsStringBox2 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 4) -}
+fbdf3e5408068789c653c91ca38314e2
+  $fIsStringBox3 ::
+    Data.Text.Array.MArray s1
+    -> GHC.Types.Int
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,1*U><L,U><L,U>,
+     Inline: [0] -}
+1209fdc3400ed5df9c18be803fee1ba3
+  $fIsStringBox_$cfromString ::
+    GHC.Base.String -> Relvar.Pretty.BoxesText.Box
+  {- Arity: 1, Strictness: <L,1*U>m, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: GHC.Base.String ->
+                 case Relvar.Pretty.BoxesText.$w$cfromString
+                        w of ww { (#,,#) ww1 ww2 ww3 ->
+                 Relvar.Pretty.BoxesText.Box ww1 ww2 ww3 }) -}
+9c42efabc3e0d6069b5f643e776cfdb2
+  $fReadAlignment :: GHC.Read.Read Relvar.Pretty.BoxesText.Alignment
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Relvar.Pretty.BoxesText.Alignment
+                  Relvar.Pretty.BoxesText.$fReadAlignment_$s$dmreadsPrec
+                  Relvar.Pretty.BoxesText.$fReadAlignment_$sreadListDefault
+                  Relvar.Pretty.BoxesText.$fReadAlignment_$creadPrec
+                  Relvar.Pretty.BoxesText.$fReadAlignment_$creadListPrec -}
+9c42efabc3e0d6069b5f643e776cfdb2
+  $fReadAlignment1 ::
+    Text.ParserCombinators.ReadPrec.Prec
+    -> forall b.
+       ([Relvar.Pretty.BoxesText.Alignment]
+        -> Text.ParserCombinators.ReadP.P b)
+       -> Text.ParserCombinators.ReadP.P b
+  {- Arity: 2, Strictness: <L,A><L,C(U)>,
+     Unfolding: InlineRule (2, True, True)
+                (\ eta :: Text.ParserCombinators.ReadPrec.Prec
+                   @ b1
+                   eta1 :: [Relvar.Pretty.BoxesText.Alignment]
+                           -> Text.ParserCombinators.ReadP.P b1 ->
+                 GHC.Read.$wa
+                   @ Relvar.Pretty.BoxesText.Alignment
+                   Relvar.Pretty.BoxesText.$fReadAlignment2
+                     `cast`
+                   (Sym (Text.ParserCombinators.ReadPrec.NTCo:ReadPrec[0]
+                             <Relvar.Pretty.BoxesText.Alignment>_R))
+                   @ b1
+                   eta1) -}
+5d8d70b96c25bc482c75fdbd6d33e579
+  $fReadAlignment10 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "AlignLast"#) -}
+9c42efabc3e0d6069b5f643e776cfdb2
+  $fReadAlignment11 ::
+    ([GHC.Types.Char],
+     Text.ParserCombinators.ReadPrec.ReadPrec
+       Relvar.Pretty.BoxesText.Alignment)
+  {- Strictness: m,
+     Unfolding: ((Relvar.Pretty.BoxesText.$fReadAlignment13,
+                  Relvar.Pretty.BoxesText.$fReadAlignment12
+                    `cast`
+                  (Trans
+                       (<Text.ParserCombinators.ReadPrec.Prec>_R
+                        ->_R Sym (Text.ParserCombinators.ReadP.NTCo:ReadP[0]
+                                      <Relvar.Pretty.BoxesText.Alignment>_R))
+                       (Sym (Text.ParserCombinators.ReadPrec.NTCo:ReadPrec[0]
+                                 <Relvar.Pretty.BoxesText.Alignment>_R))))) -}
+9c42efabc3e0d6069b5f643e776cfdb2
+  $fReadAlignment12 ::
+    Text.ParserCombinators.ReadPrec.Prec
+    -> forall b.
+       (Relvar.Pretty.BoxesText.Alignment
+        -> Text.ParserCombinators.ReadP.P b)
+       -> Text.ParserCombinators.ReadP.P b
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,A><C(S),1*C1(U)>,
+     Unfolding: InlineRule (2, True, True)
+                (\ ds :: Text.ParserCombinators.ReadPrec.Prec
+                   @ b1
+                   eta :: Relvar.Pretty.BoxesText.Alignment
+                          -> Text.ParserCombinators.ReadP.P b1 ->
+                 eta Relvar.Pretty.BoxesText.AlignCenter2) -}
+50777d152e57e71c292de895ff4b8c6c
+  $fReadAlignment13 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "AlignCenter2"#) -}
+9c42efabc3e0d6069b5f643e776cfdb2
+  $fReadAlignment14 ::
+    ([GHC.Types.Char],
+     Text.ParserCombinators.ReadPrec.ReadPrec
+       Relvar.Pretty.BoxesText.Alignment)
+  {- Strictness: m,
+     Unfolding: ((Relvar.Pretty.BoxesText.$fReadAlignment16,
+                  Relvar.Pretty.BoxesText.$fReadAlignment15
+                    `cast`
+                  (Trans
+                       (<Text.ParserCombinators.ReadPrec.Prec>_R
+                        ->_R Sym (Text.ParserCombinators.ReadP.NTCo:ReadP[0]
+                                      <Relvar.Pretty.BoxesText.Alignment>_R))
+                       (Sym (Text.ParserCombinators.ReadPrec.NTCo:ReadPrec[0]
+                                 <Relvar.Pretty.BoxesText.Alignment>_R))))) -}
+9c42efabc3e0d6069b5f643e776cfdb2
+  $fReadAlignment15 ::
+    Text.ParserCombinators.ReadPrec.Prec
+    -> forall b.
+       (Relvar.Pretty.BoxesText.Alignment
+        -> Text.ParserCombinators.ReadP.P b)
+       -> Text.ParserCombinators.ReadP.P b
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,A><C(S),1*C1(U)>,
+     Unfolding: InlineRule (2, True, True)
+                (\ ds :: Text.ParserCombinators.ReadPrec.Prec
+                   @ b1
+                   eta :: Relvar.Pretty.BoxesText.Alignment
+                          -> Text.ParserCombinators.ReadP.P b1 ->
+                 eta Relvar.Pretty.BoxesText.AlignCenter1) -}
+60fe383501e81b28dbcd43e4f93f5e6c
+  $fReadAlignment16 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "AlignCenter1"#) -}
+9c42efabc3e0d6069b5f643e776cfdb2
+  $fReadAlignment17 ::
+    ([GHC.Types.Char],
+     Text.ParserCombinators.ReadPrec.ReadPrec
+       Relvar.Pretty.BoxesText.Alignment)
+  {- Strictness: m,
+     Unfolding: ((Relvar.Pretty.BoxesText.$fReadAlignment19,
+                  Relvar.Pretty.BoxesText.$fReadAlignment18
+                    `cast`
+                  (Trans
+                       (<Text.ParserCombinators.ReadPrec.Prec>_R
+                        ->_R Sym (Text.ParserCombinators.ReadP.NTCo:ReadP[0]
+                                      <Relvar.Pretty.BoxesText.Alignment>_R))
+                       (Sym (Text.ParserCombinators.ReadPrec.NTCo:ReadPrec[0]
+                                 <Relvar.Pretty.BoxesText.Alignment>_R))))) -}
+9c42efabc3e0d6069b5f643e776cfdb2
+  $fReadAlignment18 ::
+    Text.ParserCombinators.ReadPrec.Prec
+    -> forall b.
+       (Relvar.Pretty.BoxesText.Alignment
+        -> Text.ParserCombinators.ReadP.P b)
+       -> Text.ParserCombinators.ReadP.P b
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,A><C(S),1*C1(U)>,
+     Unfolding: InlineRule (2, True, True)
+                (\ ds :: Text.ParserCombinators.ReadPrec.Prec
+                   @ b1
+                   eta :: Relvar.Pretty.BoxesText.Alignment
+                          -> Text.ParserCombinators.ReadP.P b1 ->
+                 eta Relvar.Pretty.BoxesText.AlignFirst) -}
+c60f098161493c74e1d187f643df130f
+  $fReadAlignment19 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "AlignFirst"#) -}
+9c42efabc3e0d6069b5f643e776cfdb2
+  $fReadAlignment2 ::
+    Text.ParserCombinators.ReadPrec.Prec
+    -> Text.ParserCombinators.ReadP.ReadP
+         Relvar.Pretty.BoxesText.Alignment
+  {- Arity: 1,
+     Unfolding: (GHC.Read.$fReadDouble10
+                   @ Relvar.Pretty.BoxesText.Alignment
+                   Relvar.Pretty.BoxesText.$fReadAlignment3
+                     `cast`
+                   (Trans
+                        (<Text.ParserCombinators.ReadPrec.Prec>_R
+                         ->_R Sym (Text.ParserCombinators.ReadP.NTCo:ReadP[0]
+                                       <Relvar.Pretty.BoxesText.Alignment>_R))
+                        (Sym (Text.ParserCombinators.ReadPrec.NTCo:ReadPrec[0]
+                                  <Relvar.Pretty.BoxesText.Alignment>_R)))) -}
+9c42efabc3e0d6069b5f643e776cfdb2
+  $fReadAlignment3 ::
+    Text.ParserCombinators.ReadPrec.Prec
+    -> forall b.
+       (Relvar.Pretty.BoxesText.Alignment
+        -> Text.ParserCombinators.ReadP.P b)
+       -> Text.ParserCombinators.ReadP.P b
+  {- Arity: 2, Strictness: <L,U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ eta :: Text.ParserCombinators.ReadPrec.Prec
+                   @ b1
+                   eta1 :: Relvar.Pretty.BoxesText.Alignment
+                           -> Text.ParserCombinators.ReadP.P b1 ->
+                 GHC.Read.choose2
+                   @ Relvar.Pretty.BoxesText.Alignment
+                   Relvar.Pretty.BoxesText.$fReadAlignment4
+                   eta
+                   @ b1
+                   eta1) -}
+9c42efabc3e0d6069b5f643e776cfdb2
+  $fReadAlignment4 ::
+    [(GHC.Base.String,
+      Text.ParserCombinators.ReadPrec.ReadPrec
+        Relvar.Pretty.BoxesText.Alignment)]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (GHC.Base.String,
+                      Text.ParserCombinators.ReadPrec.ReadPrec
+                        Relvar.Pretty.BoxesText.Alignment)
+                   Relvar.Pretty.BoxesText.$fReadAlignment17
+                   Relvar.Pretty.BoxesText.$fReadAlignment5) -}
+9c42efabc3e0d6069b5f643e776cfdb2
+  $fReadAlignment5 ::
+    [(GHC.Base.String,
+      Text.ParserCombinators.ReadPrec.ReadPrec
+        Relvar.Pretty.BoxesText.Alignment)]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (GHC.Base.String,
+                      Text.ParserCombinators.ReadPrec.ReadPrec
+                        Relvar.Pretty.BoxesText.Alignment)
+                   Relvar.Pretty.BoxesText.$fReadAlignment14
+                   Relvar.Pretty.BoxesText.$fReadAlignment6) -}
+9c42efabc3e0d6069b5f643e776cfdb2
+  $fReadAlignment6 ::
+    [(GHC.Base.String,
+      Text.ParserCombinators.ReadPrec.ReadPrec
+        Relvar.Pretty.BoxesText.Alignment)]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (GHC.Base.String,
+                      Text.ParserCombinators.ReadPrec.ReadPrec
+                        Relvar.Pretty.BoxesText.Alignment)
+                   Relvar.Pretty.BoxesText.$fReadAlignment11
+                   Relvar.Pretty.BoxesText.$fReadAlignment7) -}
+9c42efabc3e0d6069b5f643e776cfdb2
+  $fReadAlignment7 ::
+    [(GHC.Base.String,
+      Text.ParserCombinators.ReadPrec.ReadPrec
+        Relvar.Pretty.BoxesText.Alignment)]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (GHC.Base.String,
+                      Text.ParserCombinators.ReadPrec.ReadPrec
+                        Relvar.Pretty.BoxesText.Alignment)
+                   Relvar.Pretty.BoxesText.$fReadAlignment8
+                   (GHC.Types.[]
+                      @ (GHC.Base.String,
+                         Text.ParserCombinators.ReadPrec.ReadPrec
+                           Relvar.Pretty.BoxesText.Alignment))) -}
+9c42efabc3e0d6069b5f643e776cfdb2
+  $fReadAlignment8 ::
+    ([GHC.Types.Char],
+     Text.ParserCombinators.ReadPrec.ReadPrec
+       Relvar.Pretty.BoxesText.Alignment)
+  {- Strictness: m,
+     Unfolding: ((Relvar.Pretty.BoxesText.$fReadAlignment10,
+                  Relvar.Pretty.BoxesText.$fReadAlignment9
+                    `cast`
+                  (Trans
+                       (<Text.ParserCombinators.ReadPrec.Prec>_R
+                        ->_R Sym (Text.ParserCombinators.ReadP.NTCo:ReadP[0]
+                                      <Relvar.Pretty.BoxesText.Alignment>_R))
+                       (Sym (Text.ParserCombinators.ReadPrec.NTCo:ReadPrec[0]
+                                 <Relvar.Pretty.BoxesText.Alignment>_R))))) -}
+9c42efabc3e0d6069b5f643e776cfdb2
+  $fReadAlignment9 ::
+    Text.ParserCombinators.ReadPrec.Prec
+    -> forall b.
+       (Relvar.Pretty.BoxesText.Alignment
+        -> Text.ParserCombinators.ReadP.P b)
+       -> Text.ParserCombinators.ReadP.P b
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,A><C(S),1*C1(U)>,
+     Unfolding: InlineRule (2, True, True)
+                (\ ds :: Text.ParserCombinators.ReadPrec.Prec
+                   @ b1
+                   eta :: Relvar.Pretty.BoxesText.Alignment
+                          -> Text.ParserCombinators.ReadP.P b1 ->
+                 eta Relvar.Pretty.BoxesText.AlignLast) -}
+9c42efabc3e0d6069b5f643e776cfdb2
+  $fReadAlignment_$creadListPrec ::
+    Text.ParserCombinators.ReadPrec.ReadPrec
+      [Relvar.Pretty.BoxesText.Alignment]
+  {- Arity: 2, Strictness: <L,A><L,C(U)>,
+     Unfolding: InlineRule (0, True, True)
+                Relvar.Pretty.BoxesText.$fReadAlignment1
+                  `cast`
+                (Trans
+                     (<Text.ParserCombinators.ReadPrec.Prec>_R
+                      ->_R Sym (Text.ParserCombinators.ReadP.NTCo:ReadP[0]
+                                    <[Relvar.Pretty.BoxesText.Alignment]>_R))
+                     (Sym (Text.ParserCombinators.ReadPrec.NTCo:ReadPrec[0]
+                               <[Relvar.Pretty.BoxesText.Alignment]>_R))) -}
+9c42efabc3e0d6069b5f643e776cfdb2
+  $fReadAlignment_$creadPrec ::
+    Text.ParserCombinators.ReadPrec.ReadPrec
+      Relvar.Pretty.BoxesText.Alignment
+  {- Arity: 1,
+     Unfolding: InlineRule (0, True, True)
+                Relvar.Pretty.BoxesText.$fReadAlignment2
+                  `cast`
+                (Sym (Text.ParserCombinators.ReadPrec.NTCo:ReadPrec[0]
+                          <Relvar.Pretty.BoxesText.Alignment>_R)) -}
+9c42efabc3e0d6069b5f643e776cfdb2
+  $fReadAlignment_$s$dmreadsPrec ::
+    GHC.Types.Int
+    -> Text.ParserCombinators.ReadP.ReadS
+         Relvar.Pretty.BoxesText.Alignment
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (-1, True, False)
+                (\ eta :: GHC.Types.Int ->
+                 Text.ParserCombinators.ReadPrec.readPrec_to_S
+                   @ Relvar.Pretty.BoxesText.Alignment
+                   Relvar.Pretty.BoxesText.$fReadAlignment_$creadPrec
+                   eta) -}
+9c42efabc3e0d6069b5f643e776cfdb2
+  $fReadAlignment_$sreadListDefault ::
+    Text.ParserCombinators.ReadP.ReadS
+      [Relvar.Pretty.BoxesText.Alignment]
+  {- Arity: 1,
+     Unfolding: InlineRule (0, True, False)
+                (Text.ParserCombinators.ReadP.run
+                   @ [Relvar.Pretty.BoxesText.Alignment]
+                   ((Relvar.Pretty.BoxesText.$fReadAlignment_$creadListPrec
+                       `cast`
+                     (Text.ParserCombinators.ReadPrec.NTCo:ReadPrec[0]
+                          <[Relvar.Pretty.BoxesText.Alignment]>_R)
+                       GHC.Read.$fRead(,)7)
+                      `cast`
+                    (Text.ParserCombinators.ReadP.NTCo:ReadP[0]
+                         <[Relvar.Pretty.BoxesText.Alignment]>_R)
+                      @ [Relvar.Pretty.BoxesText.Alignment]
+                      (Text.ParserCombinators.ReadP.$fApplicativeP_$creturn
+                         @ [Relvar.Pretty.BoxesText.Alignment]))) -}
+9c42efabc3e0d6069b5f643e776cfdb2
+  $fShowAlignment :: GHC.Show.Show Relvar.Pretty.BoxesText.Alignment
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Relvar.Pretty.BoxesText.Alignment
+                  Relvar.Pretty.BoxesText.$fShowAlignment_$cshowsPrec
+                  Relvar.Pretty.BoxesText.$fShowAlignment_$cshow
+                  Relvar.Pretty.BoxesText.$fShowAlignment_$cshowList -}
+9c42efabc3e0d6069b5f643e776cfdb2
+  $fShowAlignment_$cshow ::
+    Relvar.Pretty.BoxesText.Alignment -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x :: Relvar.Pretty.BoxesText.Alignment ->
+                 Relvar.Pretty.BoxesText.$fShowAlignment_$cshowsPrec
+                   GHC.Show.shows18
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+9c42efabc3e0d6069b5f643e776cfdb2
+  $fShowAlignment_$cshowList ::
+    [Relvar.Pretty.BoxesText.Alignment] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Relvar.Pretty.BoxesText.Alignment
+                   Relvar.Pretty.BoxesText.$w$cshowsPrec) -}
+9c42efabc3e0d6069b5f643e776cfdb2
+  $fShowAlignment_$cshowsPrec ::
+    GHC.Types.Int
+    -> Relvar.Pretty.BoxesText.Alignment -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,A><S,1*U><L,1*U>, Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, True)
+                (\ w :: GHC.Types.Int
+                   w1 :: Relvar.Pretty.BoxesText.Alignment
+                   w2 :: GHC.Base.String ->
+                 Relvar.Pretty.BoxesText.$w$cshowsPrec w1 w2) -}
+1209fdc3400ed5df9c18be803fee1ba3
+  $fShowBox :: GHC.Show.Show Relvar.Pretty.BoxesText.Box
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Relvar.Pretty.BoxesText.Box
+                  Relvar.Pretty.BoxesText.$fShowBox_$cshowsPrec1
+                  Relvar.Pretty.BoxesText.$fShowBox_$cshow
+                  Relvar.Pretty.BoxesText.$fShowBox_$cshowList -}
+1209fdc3400ed5df9c18be803fee1ba3
+  $fShowBox1 :: Relvar.Pretty.BoxesText.Box -> GHC.Show.ShowS
+  {- Arity: 1,
+     Unfolding: (\ w :: Relvar.Pretty.BoxesText.Box ->
+                 case w of ww { Relvar.Pretty.BoxesText.Box ww1 ww2 ww3 ->
+                 Relvar.Pretty.BoxesText.$w$cshowsPrec1 0 ww1 ww2 ww3 }) -}
+ee626367d0f3e6825f293d32a3f302df
+  $fShowBox2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "}"#) -}
+1a47bb99cd74acd6bee07dc8f3e07548
+  $fShowBox3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "content = "#) -}
+e0d2141fef86c2e2c095dff40c78d940
+  $fShowBox4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "cols = "#) -}
+4ee2a8742f8dbfae803b7dbd73d0ce2a
+  $fShowBox5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# ", "#) -}
+f018d3b346e036045eec87751bc2da7b
+  $fShowBox6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "rows = "#) -}
+a683e0324ff12afb3130e638e7c9c6fc
+  $fShowBox7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Box {"#) -}
+65d08a6442c2390071823f15e80ea209
+  $fShowBox8 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0) -}
+1209fdc3400ed5df9c18be803fee1ba3
+  $fShowBox_$cshow :: Relvar.Pretty.BoxesText.Box -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U(U(U),U(U),1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x :: Relvar.Pretty.BoxesText.Box ->
+                 Relvar.Pretty.BoxesText.$fShowBox_$cshowsPrec1
+                   GHC.Show.shows18
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+1209fdc3400ed5df9c18be803fee1ba3
+  $fShowBox_$cshowList ::
+    [Relvar.Pretty.BoxesText.Box] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Relvar.Pretty.BoxesText.Box
+                   Relvar.Pretty.BoxesText.$fShowBox1) -}
+1209fdc3400ed5df9c18be803fee1ba3
+  $fShowBox_$cshowsPrec ::
+    GHC.Types.Int -> Relvar.Pretty.BoxesText.Content -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <L,1*U(U)><S,1*U> -}
+1209fdc3400ed5df9c18be803fee1ba3
+  $fShowBox_$cshowsPrec1 ::
+    GHC.Types.Int -> Relvar.Pretty.BoxesText.Box -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U(U)><S,1*U(U(U),U(U),1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ w :: GHC.Types.Int w1 :: Relvar.Pretty.BoxesText.Box ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { Relvar.Pretty.BoxesText.Box ww3 ww4 ww5 ->
+                 Relvar.Pretty.BoxesText.$w$cshowsPrec1 ww1 ww3 ww4 ww5 } }) -}
+1209fdc3400ed5df9c18be803fee1ba3
+  $fShowContent :: GHC.Show.Show Relvar.Pretty.BoxesText.Content
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Relvar.Pretty.BoxesText.Content
+                  Relvar.Pretty.BoxesText.$fShowBox_$cshowsPrec
+                  Relvar.Pretty.BoxesText.$fShowContent_$cshow
+                  Relvar.Pretty.BoxesText.$fShowContent_$cshowList -}
+1209fdc3400ed5df9c18be803fee1ba3
+  $fShowContent1 :: Relvar.Pretty.BoxesText.Content -> GHC.Show.ShowS
+  {- Arity: 1,
+     Unfolding: (Relvar.Pretty.BoxesText.$fShowBox_$cshowsPrec
+                   Relvar.Pretty.BoxesText.$fShowBox8) -}
+1209fdc3400ed5df9c18be803fee1ba3
+  $fShowContent_$cshow ::
+    Relvar.Pretty.BoxesText.Content -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x :: Relvar.Pretty.BoxesText.Content ->
+                 Relvar.Pretty.BoxesText.$fShowBox_$cshowsPrec
+                   GHC.Show.shows18
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+1209fdc3400ed5df9c18be803fee1ba3
+  $fShowContent_$cshowList ::
+    [Relvar.Pretty.BoxesText.Content] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Relvar.Pretty.BoxesText.Content
+                   Relvar.Pretty.BoxesText.$fShowContent1) -}
+1209fdc3400ed5df9c18be803fee1ba3
+  $w$cfromString ::
+    GHC.Base.String
+    -> (# GHC.Types.Int,
+          GHC.Types.Int,
+          Relvar.Pretty.BoxesText.Content #)
+  {- Arity: 1, Strictness: <L,1*U>, Inline: [0],
+     Unfolding: (\ w :: GHC.Base.String ->
+                 let {
+                   t :: Data.Text.Internal.Text
+                   = GHC.ST.runSTRep
+                       @ Data.Text.Internal.Text
+                       (\ @ s1 s2 :: GHC.Prim.State# s1[OneShot] ->
+                        case GHC.Prim.newByteArray# @ s1 8 s2 of ds1 { (#,#) ipv ipv1 ->
+                        Relvar.Pretty.BoxesText.$fIsStringBox3
+                          @ s1
+                          (Data.Text.Array.MArray @ s1 ipv1)
+                          Relvar.Pretty.BoxesText.$fIsStringBox2
+                          w
+                          0
+                          ipv })
+                 } in
+                 (# Relvar.Pretty.BoxesText.$fIsStringBox1,
+                    Data.Text.length t,
+                    Relvar.Pretty.BoxesText.Text t #)) -}
+9c42efabc3e0d6069b5f643e776cfdb2
+  $w$cshowsPrec ::
+    Relvar.Pretty.BoxesText.Alignment
+    -> GHC.Base.String -> GHC.Base.String
+  {- Arity: 2, Strictness: <S,1*U><L,1*U>, Inline: [0],
+     Unfolding: (\ w :: Relvar.Pretty.BoxesText.Alignment
+                   w1 :: GHC.Base.String ->
+                 case w of wild {
+                   Relvar.Pretty.BoxesText.AlignFirst
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Relvar.Pretty.BoxesText.$fReadAlignment19
+                        w1
+                   Relvar.Pretty.BoxesText.AlignCenter1
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Relvar.Pretty.BoxesText.$fReadAlignment16
+                        w1
+                   Relvar.Pretty.BoxesText.AlignCenter2
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Relvar.Pretty.BoxesText.$fReadAlignment13
+                        w1
+                   Relvar.Pretty.BoxesText.AlignLast
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Relvar.Pretty.BoxesText.$fReadAlignment10
+                        w1 }) -}
+1209fdc3400ed5df9c18be803fee1ba3
+  $w$cshowsPrec1 ::
+    GHC.Prim.Int#
+    -> GHC.Types.Int
+    -> GHC.Types.Int
+    -> Relvar.Pretty.BoxesText.Content
+    -> GHC.Show.ShowS
+  {- Arity: 4, Strictness: <L,U><L,U(U)><L,U(U)><L,1*U>, Inline: [0],
+     Unfolding: (\ ww :: GHC.Prim.Int#
+                   ww1 :: GHC.Types.Int
+                   ww2 :: GHC.Types.Int
+                   ww3 :: Relvar.Pretty.BoxesText.Content ->
+                 let {
+                   f :: GHC.Base.String -> GHC.Base.String
+                   = Relvar.Pretty.BoxesText.$fShowBox_$cshowsPrec
+                       Relvar.Pretty.BoxesText.$fShowBox8
+                       ww3
+                 } in
+                 let {
+                   p :: GHC.Show.ShowS {- Arity: 1, Strictness: <L,1*U> -}
+                   = \ x :: GHC.Base.String ->
+                     GHC.Base.++
+                       @ GHC.Types.Char
+                       Relvar.Pretty.BoxesText.$fShowBox7
+                       (GHC.Base.++
+                          @ GHC.Types.Char
+                          Relvar.Pretty.BoxesText.$fShowBox6
+                          (case ww1 of ww4 { GHC.Types.I# ww5 ->
+                           case GHC.Show.$wshowSignedInt
+                                  0
+                                  ww5
+                                  (GHC.Base.++
+                                     @ GHC.Types.Char
+                                     Relvar.Pretty.BoxesText.$fShowBox5
+                                     (GHC.Base.++
+                                        @ GHC.Types.Char
+                                        Relvar.Pretty.BoxesText.$fShowBox4
+                                        (case ww2 of ww6 { GHC.Types.I# ww7 ->
+                                         case GHC.Show.$wshowSignedInt
+                                                0
+                                                ww7
+                                                (GHC.Base.++
+                                                   @ GHC.Types.Char
+                                                   Relvar.Pretty.BoxesText.$fShowBox5
+                                                   (GHC.Base.++
+                                                      @ GHC.Types.Char
+                                                      Relvar.Pretty.BoxesText.$fShowBox3
+                                                      (f (GHC.Base.++
+                                                            @ GHC.Types.Char
+                                                            Relvar.Pretty.BoxesText.$fShowBox2
+                                                            x)))) of ww8 { (#,#) ww9 ww10 ->
+                                         GHC.Types.:
+                                           @ GHC.Types.Char
+                                           ww9
+                                           ww10 } }))) of ww6 { (#,#) ww7 ww8 ->
+                           GHC.Types.: @ GHC.Types.Char ww7 ww8 } }))
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11) of wild {
+                   GHC.Types.False -> p
+                   GHC.Types.True
+                   -> \ x :: GHC.Base.String ->
+                      GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows9
+                        (p (GHC.Types.: @ GHC.Types.Char GHC.Show.shows8 x)) }) -}
+1f1dd8aa94bc4920c16a4c2dca4530c0
+  $wcolumns ::
+    Relvar.Pretty.BoxesText.Alignment
+    -> GHC.Types.Int
+    -> GHC.Types.Int
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> [Relvar.Pretty.BoxesText.Box]
+  {- Arity: 6, Strictness: <L,U><L,U(U)><L,U(U)><L,U><L,U><L,U>,
+     Inline: [0],
+     Unfolding: (\ w :: Relvar.Pretty.BoxesText.Alignment
+                   w1 :: GHC.Types.Int
+                   w2 :: GHC.Types.Int
+                   ww :: GHC.Prim.ByteArray#
+                   ww1 :: GHC.Prim.Int#
+                   ww2 :: GHC.Prim.Int# ->
+                 GHC.Base.map
+                   @ [Data.Text.Internal.Text]
+                   @ Relvar.Pretty.BoxesText.Box
+                   (\ eta :: [Data.Text.Internal.Text] ->
+                    let {
+                      b1 :: Relvar.Pretty.BoxesText.Box
+                      = case Relvar.Pretty.BoxesText.$wvcat
+                               w
+                               (GHC.Base.map
+                                  @ Data.Text.Internal.Text
+                                  @ Relvar.Pretty.BoxesText.Box
+                                  Relvar.Pretty.BoxesText.text
+                                  eta) of ww3 { (#,,#) ww4 ww5 ww6 ->
+                        Relvar.Pretty.BoxesText.Box ww4 ww5 ww6 }
+                    } in
+                    Relvar.Pretty.BoxesText.Box
+                      w2
+                      (case b1 of wild { Relvar.Pretty.BoxesText.Box ds ds1 ds2 -> ds1 })
+                      (Relvar.Pretty.BoxesText.SubBox
+                         Relvar.Pretty.BoxesText.AlignFirst
+                         Relvar.Pretty.BoxesText.AlignFirst
+                         b1))
+                   (Data.List.Split.Internals.chunksOf
+                      @ Data.Text.Internal.Text
+                      w2
+                      (Relvar.Pretty.BoxesText.$wflow w1 ww ww1 ww2))) -}
+9ac0cfd69bf4a88b7c40305867e8a7ae
+  $wflow ::
+    GHC.Types.Int
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> [Data.Text.Internal.Text]
+  {- Arity: 4, Strictness: <L,U(U)><L,U><L,U><L,U>, Inline: [0] -}
+b03bd013d91431ba6a4cd2e38c3750c8
+  $wgo ::
+    [Relvar.Pretty.BoxesText.Box] -> GHC.Prim.Int# -> GHC.Prim.Int#
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,U>, Inline: [0] -}
+e93c57771f61fc2eddc78b193f906fb1
+  $wgo1 ::
+    [Relvar.Pretty.BoxesText.Box] -> GHC.Prim.Int# -> GHC.Prim.Int#
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,U>, Inline: [0] -}
+5eb14937e5cd700502480f05f8b76c31
+  $whcat ::
+    Relvar.Pretty.BoxesText.Alignment
+    -> [Relvar.Pretty.BoxesText.Box]
+    -> (# GHC.Types.Int,
+          GHC.Types.Int,
+          Relvar.Pretty.BoxesText.Content #)
+  {- Arity: 2, Strictness: <L,U><L,U>, Inline: [0],
+     Unfolding: (\ w :: Relvar.Pretty.BoxesText.Alignment
+                   w1 :: [Relvar.Pretty.BoxesText.Box] ->
+                 let {
+                   h :: GHC.Types.Int
+                   = GHC.List.strictMaximum
+                       @ GHC.Types.Int
+                       GHC.Classes.$fOrdInt
+                       (GHC.Types.:
+                          @ GHC.Types.Int
+                          Relvar.Pretty.BoxesText.$fShowBox8
+                          (GHC.Base.map
+                             @ Relvar.Pretty.BoxesText.Box
+                             @ GHC.Types.Int
+                             Relvar.Pretty.BoxesText.rows
+                             w1))
+                 } in
+                 (# h,
+                    case Relvar.Pretty.BoxesText.$wgo1 w1 0 of ww { DEFAULT ->
+                    GHC.Types.I# ww },
+                    Relvar.Pretty.BoxesText.Row
+                      (GHC.Base.map
+                         @ Relvar.Pretty.BoxesText.Box
+                         @ Relvar.Pretty.BoxesText.Box
+                         (\ b1 :: Relvar.Pretty.BoxesText.Box ->
+                          Relvar.Pretty.BoxesText.Box
+                            h
+                            (case b1 of wild { Relvar.Pretty.BoxesText.Box ds ds1 ds2 -> ds1 })
+                            (Relvar.Pretty.BoxesText.SubBox
+                               Relvar.Pretty.BoxesText.AlignFirst
+                               w
+                               b1))
+                         w1) #)) -}
+aed68ddbdfe6a275876ae97fbade6bd4
+  $wpara ::
+    Relvar.Pretty.BoxesText.Alignment
+    -> GHC.Types.Int
+    -> Data.Text.Internal.Text
+    -> (# GHC.Types.Int,
+          GHC.Types.Int,
+          Relvar.Pretty.BoxesText.Content #)
+  {- Arity: 3, Strictness: <L,U><L,U(U)><L,1*U(U,U,U)>, Inline: [0],
+     Unfolding: (\ w :: Relvar.Pretty.BoxesText.Alignment
+                   w1 :: GHC.Types.Int
+                   w2 :: Data.Text.Internal.Text ->
+                 let {
+                   ss :: [Data.Text.Internal.Text]
+                   = case w2 of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                     Relvar.Pretty.BoxesText.$wflow w1 ww1 ww2 ww3 }
+                 } in
+                 let {
+                   b1 :: Relvar.Pretty.BoxesText.Box
+                   = case Relvar.Pretty.BoxesText.$wvcat
+                            w
+                            (GHC.Base.map
+                               @ Data.Text.Internal.Text
+                               @ Relvar.Pretty.BoxesText.Box
+                               Relvar.Pretty.BoxesText.text
+                               ss) of ww { (#,,#) ww1 ww2 ww3 ->
+                     Relvar.Pretty.BoxesText.Box ww1 ww2 ww3 }
+                 } in
+                 (# case GHC.List.$wlenAcc
+                           @ Data.Text.Internal.Text
+                           ss
+                           0 of ww2 { DEFAULT ->
+                    GHC.Types.I# ww2 },
+                    case b1 of wild { Relvar.Pretty.BoxesText.Box ds ds1 ds2 -> ds1 },
+                    Relvar.Pretty.BoxesText.SubBox
+                      Relvar.Pretty.BoxesText.AlignFirst
+                      Relvar.Pretty.BoxesText.AlignFirst
+                      b1 #)) -}
+bf7ae5e2ecec70795035730d373db785
+  $wrender ::
+    GHC.Types.Int
+    -> GHC.Types.Int
+    -> Relvar.Pretty.BoxesText.Content
+    -> Data.Text.Internal.Text
+  {- Arity: 3, Strictness: <L,U(U)><L,U(U)><S,1*U>, Inline: [0],
+     Unfolding: (\ ww :: GHC.Types.Int
+                   ww1 :: GHC.Types.Int
+                   ww2 :: Relvar.Pretty.BoxesText.Content ->
+                 Data.Text.concat
+                   (GHC.Base.map
+                      @ Data.Text.Internal.Text
+                      @ Data.Text.Internal.Text
+                      Relvar.Pretty.BoxesText.render1
+                      (Relvar.Pretty.BoxesText.$wrenderBox ww ww1 ww2))) -}
+c29b80664e744a6e237f89438860face
+  $wrenderBox ::
+    GHC.Types.Int
+    -> GHC.Types.Int
+    -> Relvar.Pretty.BoxesText.Content
+    -> [Data.Text.Internal.Text]
+  {- Arity: 3, Strictness: <L,U(U)><L,U(U)><S,1*U>, Inline: [0] -}
+4f2cdefee62741049df28ef9631bab85
+  $wvcat ::
+    Relvar.Pretty.BoxesText.Alignment
+    -> [Relvar.Pretty.BoxesText.Box]
+    -> (# GHC.Types.Int,
+          GHC.Types.Int,
+          Relvar.Pretty.BoxesText.Content #)
+  {- Arity: 2, Strictness: <L,U><L,U>, Inline: [0],
+     Unfolding: (\ w :: Relvar.Pretty.BoxesText.Alignment
+                   w1 :: [Relvar.Pretty.BoxesText.Box] ->
+                 let {
+                   w2 :: GHC.Types.Int
+                   = GHC.List.strictMaximum
+                       @ GHC.Types.Int
+                       GHC.Classes.$fOrdInt
+                       (GHC.Types.:
+                          @ GHC.Types.Int
+                          Relvar.Pretty.BoxesText.$fShowBox8
+                          (GHC.Base.map
+                             @ Relvar.Pretty.BoxesText.Box
+                             @ GHC.Types.Int
+                             Relvar.Pretty.BoxesText.cols
+                             w1))
+                 } in
+                 (# case Relvar.Pretty.BoxesText.$wgo w1 0 of ww { DEFAULT ->
+                    GHC.Types.I# ww },
+                    w2,
+                    Relvar.Pretty.BoxesText.Col
+                      (GHC.Base.map
+                         @ Relvar.Pretty.BoxesText.Box
+                         @ Relvar.Pretty.BoxesText.Box
+                         (\ b1 :: Relvar.Pretty.BoxesText.Box ->
+                          Relvar.Pretty.BoxesText.Box
+                            (case b1 of wild { Relvar.Pretty.BoxesText.Box ds ds1 ds2 -> ds })
+                            w2
+                            (Relvar.Pretty.BoxesText.SubBox
+                               w
+                               Relvar.Pretty.BoxesText.AlignFirst
+                               b1))
+                         w1) #)) -}
+402630d724902f6acd697db898e1cf3b
+  (/+/) ::
+    Relvar.Pretty.BoxesText.Box
+    -> Relvar.Pretty.BoxesText.Box -> Relvar.Pretty.BoxesText.Box
+  {- Arity: 2, Strictness: <L,U><L,U>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ t :: Relvar.Pretty.BoxesText.Box
+                   b1 :: Relvar.Pretty.BoxesText.Box ->
+                 Relvar.Pretty.BoxesText.vcat
+                   Relvar.Pretty.BoxesText.AlignFirst
+                   (GHC.Types.:
+                      @ Relvar.Pretty.BoxesText.Box
+                      t
+                      (GHC.Types.:
+                         @ Relvar.Pretty.BoxesText.Box
+                         Relvar.Pretty.BoxesText./+/1
+                         (GHC.Types.:
+                            @ Relvar.Pretty.BoxesText.Box
+                            b1
+                            (GHC.Types.[] @ Relvar.Pretty.BoxesText.Box))))) -}
+6933d0728cf79f8f5cb1fa6bf81a63d8
+  /+/1 :: Relvar.Pretty.BoxesText.Box
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (Relvar.Pretty.BoxesText.Box
+                   Relvar.Pretty.BoxesText.$fIsStringBox1
+                   Relvar.Pretty.BoxesText.$fShowBox8
+                   Relvar.Pretty.BoxesText.Blank) -}
+1d47a8d55e049a8e693c06b08c388e90
+  (//) ::
+    Relvar.Pretty.BoxesText.Box
+    -> Relvar.Pretty.BoxesText.Box -> Relvar.Pretty.BoxesText.Box
+  {- Arity: 2, Strictness: <L,U><L,U>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ t :: Relvar.Pretty.BoxesText.Box
+                   b1 :: Relvar.Pretty.BoxesText.Box ->
+                 Relvar.Pretty.BoxesText.vcat
+                   Relvar.Pretty.BoxesText.AlignFirst
+                   (GHC.Types.:
+                      @ Relvar.Pretty.BoxesText.Box
+                      t
+                      (GHC.Types.:
+                         @ Relvar.Pretty.BoxesText.Box
+                         b1
+                         (GHC.Types.[] @ Relvar.Pretty.BoxesText.Box)))) -}
+33a3350b874df78c232688f9717f6b1e
+  (<+>) ::
+    Relvar.Pretty.BoxesText.Box
+    -> Relvar.Pretty.BoxesText.Box -> Relvar.Pretty.BoxesText.Box
+  {- Arity: 2, Strictness: <L,U><L,U>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ l :: Relvar.Pretty.BoxesText.Box
+                   r :: Relvar.Pretty.BoxesText.Box ->
+                 Relvar.Pretty.BoxesText.hcat
+                   Relvar.Pretty.BoxesText.AlignFirst
+                   (GHC.Types.:
+                      @ Relvar.Pretty.BoxesText.Box
+                      l
+                      (GHC.Types.:
+                         @ Relvar.Pretty.BoxesText.Box
+                         Relvar.Pretty.BoxesText.<+>1
+                         (GHC.Types.:
+                            @ Relvar.Pretty.BoxesText.Box
+                            r
+                            (GHC.Types.[] @ Relvar.Pretty.BoxesText.Box))))) -}
+f2828038df5ab78d86b2c8ff07963f66
+  <+>1 :: Relvar.Pretty.BoxesText.Box
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (Relvar.Pretty.BoxesText.Box
+                   Relvar.Pretty.BoxesText.$fShowBox8
+                   Relvar.Pretty.BoxesText.$fIsStringBox1
+                   Relvar.Pretty.BoxesText.Blank) -}
+0f64298930c29c04a76cb81deb5ab74d
+  (<>) ::
+    Relvar.Pretty.BoxesText.Box
+    -> Relvar.Pretty.BoxesText.Box -> Relvar.Pretty.BoxesText.Box
+  {- Arity: 2, Strictness: <L,U><L,U>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ l :: Relvar.Pretty.BoxesText.Box
+                   r :: Relvar.Pretty.BoxesText.Box ->
+                 Relvar.Pretty.BoxesText.hcat
+                   Relvar.Pretty.BoxesText.AlignFirst
+                   (GHC.Types.:
+                      @ Relvar.Pretty.BoxesText.Box
+                      l
+                      (GHC.Types.:
+                         @ Relvar.Pretty.BoxesText.Box
+                         r
+                         (GHC.Types.[] @ Relvar.Pretty.BoxesText.Box)))) -}
+9c42efabc3e0d6069b5f643e776cfdb2
+  data Alignment
+    = AlignFirst | AlignCenter1 | AlignCenter2 | AlignLast
+    Promotable
+1209fdc3400ed5df9c18be803fee1ba3
+  data Box
+    = Box {rows :: GHC.Types.Int,
+           cols :: GHC.Types.Int,
+           content :: Relvar.Pretty.BoxesText.Content}
+1209fdc3400ed5df9c18be803fee1ba3
+  data Content
+    = Blank
+    | Text Data.Text.Internal.Text
+    | Row [Relvar.Pretty.BoxesText.Box]
+    | Col [Relvar.Pretty.BoxesText.Box]
+    | SubBox Relvar.Pretty.BoxesText.Alignment
+             Relvar.Pretty.BoxesText.Alignment
+             Relvar.Pretty.BoxesText.Box
+fef0c60f1bde1d426ba7c0ee7c914a86
+  data Line
+    = Line {lLen :: GHC.Types.Int,
+            getWords :: [Relvar.Pretty.BoxesText.Word]}
+04ae4732c62a8e9c45f90de77256cb55
+  data Para
+    = Para {paraWidth :: GHC.Types.Int,
+            paraContent :: Relvar.Pretty.BoxesText.ParaContent}
+40814257f717a2d41b607251d48cf6cb
+  data ParaContent
+    = Block {fullLines :: [Relvar.Pretty.BoxesText.Line],
+             lastLine :: Relvar.Pretty.BoxesText.Line}
+1684f75f22c491fa1f00bae774528a85
+  data Word
+    = Word {wLen :: GHC.Types.Int, getWord :: Data.Text.Internal.Text}
+a2433ba5922a6e2823dc9352392d296b
+  align ::
+    Relvar.Pretty.BoxesText.Alignment
+    -> Relvar.Pretty.BoxesText.Alignment
+    -> GHC.Types.Int
+    -> GHC.Types.Int
+    -> Relvar.Pretty.BoxesText.Box
+    -> Relvar.Pretty.BoxesText.Box
+  {- Arity: 5, HasNoCafRefs, Strictness: <L,U><L,U><L,U><L,U><L,U>m,
+     Unfolding: InlineRule (5, True, False)
+                (\ ah :: Relvar.Pretty.BoxesText.Alignment
+                   av :: Relvar.Pretty.BoxesText.Alignment
+                   r :: GHC.Types.Int
+                   c :: GHC.Types.Int
+                   eta :: Relvar.Pretty.BoxesText.Box ->
+                 Relvar.Pretty.BoxesText.Box
+                   r
+                   c
+                   (Relvar.Pretty.BoxesText.SubBox ah av eta)) -}
+29c3627f477c1edab467c013bdeecd8c
+  alignHoriz ::
+    Relvar.Pretty.BoxesText.Alignment
+    -> GHC.Types.Int
+    -> Relvar.Pretty.BoxesText.Box
+    -> Relvar.Pretty.BoxesText.Box
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,U><L,U><L,U(U,U,U)>m,
+     Unfolding: InlineRule (3, True, False)
+                (\ a3 :: Relvar.Pretty.BoxesText.Alignment
+                   c :: GHC.Types.Int
+                   b1 :: Relvar.Pretty.BoxesText.Box ->
+                 Relvar.Pretty.BoxesText.Box
+                   (case b1 of wild { Relvar.Pretty.BoxesText.Box ds ds1 ds2 -> ds })
+                   c
+                   (Relvar.Pretty.BoxesText.SubBox
+                      a3
+                      Relvar.Pretty.BoxesText.AlignFirst
+                      b1)) -}
+142efc16315ed7550eb4306748840ef2
+  alignVert ::
+    Relvar.Pretty.BoxesText.Alignment
+    -> GHC.Types.Int
+    -> Relvar.Pretty.BoxesText.Box
+    -> Relvar.Pretty.BoxesText.Box
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,U><L,U><L,U(U,U,U)>m,
+     Unfolding: InlineRule (3, True, False)
+                (\ a3 :: Relvar.Pretty.BoxesText.Alignment
+                   r :: GHC.Types.Int
+                   b1 :: Relvar.Pretty.BoxesText.Box ->
+                 Relvar.Pretty.BoxesText.Box
+                   r
+                   (case b1 of wild { Relvar.Pretty.BoxesText.Box ds ds1 ds2 -> ds1 })
+                   (Relvar.Pretty.BoxesText.SubBox
+                      Relvar.Pretty.BoxesText.AlignFirst
+                      a3
+                      b1)) -}
+86656486e6076606393b29924cd31a58
+  bottom :: Relvar.Pretty.BoxesText.Alignment
+  {- HasNoCafRefs,
+     Unfolding: InlineRule (0, True, True)
+                Relvar.Pretty.BoxesText.AlignLast -}
+f3932eef39b16d94def62729cb9ae5a2
+  center1 :: Relvar.Pretty.BoxesText.Alignment
+  {- HasNoCafRefs,
+     Unfolding: InlineRule (0, True, True)
+                Relvar.Pretty.BoxesText.AlignCenter1 -}
+50120bbb5b589aba1dd51ca92f4b1560
+  center2 :: Relvar.Pretty.BoxesText.Alignment
+  {- HasNoCafRefs,
+     Unfolding: InlineRule (0, True, True)
+                Relvar.Pretty.BoxesText.AlignCenter2 -}
+ddf845caae65868ec4aa41ac105bbf7c
+  char :: GHC.Types.Char -> Relvar.Pretty.BoxesText.Box
+  {- Arity: 1, Strictness: <L,1*U(U)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ c :: GHC.Types.Char ->
+                 Relvar.Pretty.BoxesText.Box
+                   Relvar.Pretty.BoxesText.$fIsStringBox1
+                   Relvar.Pretty.BoxesText.$fIsStringBox1
+                   (Relvar.Pretty.BoxesText.Text (Data.Text.Show.singleton_ c))) -}
+acf700943a4c3fc9b1d4033e7b7c7d11
+  cols :: Relvar.Pretty.BoxesText.Box -> GHC.Types.Int
+  RecSel Relvar.Pretty.BoxesText.Box
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LSL),1*U(A,1*U(U),A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Relvar.Pretty.BoxesText.Box ->
+                 case ds of wild { Relvar.Pretty.BoxesText.Box ds1 ds2 ds3 ->
+                 ds2 }) -}
+9216b4c3e5ac6d1a9739a6af26e190c9
+  columns ::
+    Relvar.Pretty.BoxesText.Alignment
+    -> GHC.Types.Int
+    -> GHC.Types.Int
+    -> Data.Text.Internal.Text
+    -> [Relvar.Pretty.BoxesText.Box]
+  {- Arity: 4, Strictness: <L,U><L,U(U)><L,U(U)><S,1*U(U,U,U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (4, True, False)
+                (\ w :: Relvar.Pretty.BoxesText.Alignment
+                   w1 :: GHC.Types.Int
+                   w2 :: GHC.Types.Int
+                   w3 :: Data.Text.Internal.Text ->
+                 case w3 of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                 Relvar.Pretty.BoxesText.$wcolumns w w1 w2 ww1 ww2 ww3 }) -}
+90788d0d4359d8caaa4fad0bd7f1921e
+  content ::
+    Relvar.Pretty.BoxesText.Box -> Relvar.Pretty.BoxesText.Content
+  RecSel Relvar.Pretty.BoxesText.Box
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LLS),1*U(A,A,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Relvar.Pretty.BoxesText.Box ->
+                 case ds of wild { Relvar.Pretty.BoxesText.Box ds1 ds2 ds3 ->
+                 ds3 }) -}
+47c7dae179dfdb46f3f4e12ffb04f0c5
+  emptyBox ::
+    GHC.Types.Int -> GHC.Types.Int -> Relvar.Pretty.BoxesText.Box
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,U><L,U>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ r :: GHC.Types.Int c :: GHC.Types.Int ->
+                 Relvar.Pretty.BoxesText.Box r c Relvar.Pretty.BoxesText.Blank) -}
+9fcdb09d2df7a446f72aa5a9ca9b5a90
+  fullLines ::
+    Relvar.Pretty.BoxesText.ParaContent
+    -> [Relvar.Pretty.BoxesText.Line]
+  RecSel Relvar.Pretty.BoxesText.ParaContent
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Relvar.Pretty.BoxesText.ParaContent ->
+                 case ds of wild { Relvar.Pretty.BoxesText.Block ds1 ds2 ->
+                 ds1 }) -}
+2075c512e4df42657a6655d52aea909d
+  getWord :: Relvar.Pretty.BoxesText.Word -> Data.Text.Internal.Text
+  RecSel Relvar.Pretty.BoxesText.Word
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(A,1*U(U,U,U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Relvar.Pretty.BoxesText.Word ->
+                 case ds of wild { Relvar.Pretty.BoxesText.Word ds1 ds2 -> ds2 }) -}
+e461f0ad22aa9312d1b2de8d9d7a0171
+  getWords ::
+    Relvar.Pretty.BoxesText.Line -> [Relvar.Pretty.BoxesText.Word]
+  RecSel Relvar.Pretty.BoxesText.Line
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(A,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Relvar.Pretty.BoxesText.Line ->
+                 case ds of wild { Relvar.Pretty.BoxesText.Line ds1 ds2 -> ds2 }) -}
+b454dd3ab46366c230afa81bbc0720ae
+  hcat ::
+    Relvar.Pretty.BoxesText.Alignment
+    -> [Relvar.Pretty.BoxesText.Box] -> Relvar.Pretty.BoxesText.Box
+  {- Arity: 2, Strictness: <L,U><L,U>m, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ w :: Relvar.Pretty.BoxesText.Alignment
+                   w1 :: [Relvar.Pretty.BoxesText.Box] ->
+                 case Relvar.Pretty.BoxesText.$whcat
+                        w
+                        w1 of ww { (#,,#) ww1 ww2 ww3 ->
+                 Relvar.Pretty.BoxesText.Box ww1 ww2 ww3 }) -}
+69b9e315b8429bf6f8298dc18e3b9d70
+  hsep ::
+    GHC.Types.Int
+    -> Relvar.Pretty.BoxesText.Alignment
+    -> [Relvar.Pretty.BoxesText.Box]
+    -> Relvar.Pretty.BoxesText.Box
+  {- Arity: 3, Strictness: <L,U><L,U><L,1*U>m,
+     Unfolding: InlineRule (3, True, False)
+                (\ sep :: GHC.Types.Int
+                   a3 :: Relvar.Pretty.BoxesText.Alignment
+                   bs :: [Relvar.Pretty.BoxesText.Box] ->
+                 Relvar.Pretty.BoxesText.hcat
+                   a3
+                   (case bs of wild {
+                      [] -> GHC.Types.[] @ Relvar.Pretty.BoxesText.Box
+                      : x xs1
+                      -> GHC.Types.:
+                           @ Relvar.Pretty.BoxesText.Box
+                           x
+                           (Data.OldList.prependToAll
+                              @ Relvar.Pretty.BoxesText.Box
+                              (Relvar.Pretty.BoxesText.Box
+                                 Relvar.Pretty.BoxesText.$fShowBox8
+                                 sep
+                                 Relvar.Pretty.BoxesText.Blank)
+                              xs1) })) -}
+b33b24c06e1de2c2b59d5a1a12c2ea7d
+  lLen :: Relvar.Pretty.BoxesText.Line -> GHC.Types.Int
+  RecSel Relvar.Pretty.BoxesText.Line
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U(U),A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Relvar.Pretty.BoxesText.Line ->
+                 case ds of wild { Relvar.Pretty.BoxesText.Line ds1 ds2 -> ds1 }) -}
+f53eb8cd931c56f588a5c9e041aafe3d
+  lastLine ::
+    Relvar.Pretty.BoxesText.ParaContent -> Relvar.Pretty.BoxesText.Line
+  RecSel Relvar.Pretty.BoxesText.ParaContent
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(A,1*U(U,U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Relvar.Pretty.BoxesText.ParaContent ->
+                 case ds of wild { Relvar.Pretty.BoxesText.Block ds1 ds2 ->
+                 ds2 }) -}
+1ce9839715ce9a8a29cd06ff8848f489
+  left :: Relvar.Pretty.BoxesText.Alignment
+  {- HasNoCafRefs,
+     Unfolding: InlineRule (0, True, True)
+                Relvar.Pretty.BoxesText.AlignFirst -}
+442b1c73afb8be52e4d89ab44789d66d
+  moveDown ::
+    GHC.Types.Int
+    -> Relvar.Pretty.BoxesText.Box -> Relvar.Pretty.BoxesText.Box
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,1*U(U)><L,U(U(U),U,U)>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ n :: GHC.Types.Int b1 :: Relvar.Pretty.BoxesText.Box ->
+                 Relvar.Pretty.BoxesText.Box
+                   (case b1 of wild { Relvar.Pretty.BoxesText.Box ds ds1 ds2 ->
+                    case ds of wild1 { GHC.Types.I# x ->
+                    case n of wild2 { GHC.Types.I# y ->
+                    GHC.Types.I# (GHC.Prim.+# x y) } } })
+                   (case b1 of wild { Relvar.Pretty.BoxesText.Box ds ds1 ds2 -> ds1 })
+                   (Relvar.Pretty.BoxesText.SubBox
+                      Relvar.Pretty.BoxesText.AlignFirst
+                      Relvar.Pretty.BoxesText.AlignLast
+                      b1)) -}
+7922a8fcb0ac6f810a4dce63ddbeaecc
+  moveLeft ::
+    GHC.Types.Int
+    -> Relvar.Pretty.BoxesText.Box -> Relvar.Pretty.BoxesText.Box
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,1*U(U)><L,U(U,U(U),U)>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ n :: GHC.Types.Int b1 :: Relvar.Pretty.BoxesText.Box ->
+                 Relvar.Pretty.BoxesText.Box
+                   (case b1 of wild { Relvar.Pretty.BoxesText.Box ds ds1 ds2 -> ds })
+                   (case b1 of wild { Relvar.Pretty.BoxesText.Box ds ds1 ds2 ->
+                    case ds1 of wild1 { GHC.Types.I# x ->
+                    case n of wild2 { GHC.Types.I# y ->
+                    GHC.Types.I# (GHC.Prim.+# x y) } } })
+                   (Relvar.Pretty.BoxesText.SubBox
+                      Relvar.Pretty.BoxesText.AlignFirst
+                      Relvar.Pretty.BoxesText.AlignFirst
+                      b1)) -}
+f4420ba205cf6c2d3d2b9c0692b7c36c
+  moveRight ::
+    GHC.Types.Int
+    -> Relvar.Pretty.BoxesText.Box -> Relvar.Pretty.BoxesText.Box
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,1*U(U)><L,U(U,U(U),U)>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ n :: GHC.Types.Int b1 :: Relvar.Pretty.BoxesText.Box ->
+                 Relvar.Pretty.BoxesText.Box
+                   (case b1 of wild { Relvar.Pretty.BoxesText.Box ds ds1 ds2 -> ds })
+                   (case b1 of wild { Relvar.Pretty.BoxesText.Box ds ds1 ds2 ->
+                    case ds1 of wild1 { GHC.Types.I# x ->
+                    case n of wild2 { GHC.Types.I# y ->
+                    GHC.Types.I# (GHC.Prim.+# x y) } } })
+                   (Relvar.Pretty.BoxesText.SubBox
+                      Relvar.Pretty.BoxesText.AlignLast
+                      Relvar.Pretty.BoxesText.AlignFirst
+                      b1)) -}
+3b685b756ca82135b73c9a62016c4631
+  moveUp ::
+    GHC.Types.Int
+    -> Relvar.Pretty.BoxesText.Box -> Relvar.Pretty.BoxesText.Box
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,1*U(U)><L,U(U(U),U,U)>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ n :: GHC.Types.Int b1 :: Relvar.Pretty.BoxesText.Box ->
+                 Relvar.Pretty.BoxesText.Box
+                   (case b1 of wild { Relvar.Pretty.BoxesText.Box ds ds1 ds2 ->
+                    case ds of wild1 { GHC.Types.I# x ->
+                    case n of wild2 { GHC.Types.I# y ->
+                    GHC.Types.I# (GHC.Prim.+# x y) } } })
+                   (case b1 of wild { Relvar.Pretty.BoxesText.Box ds ds1 ds2 -> ds1 })
+                   (Relvar.Pretty.BoxesText.SubBox
+                      Relvar.Pretty.BoxesText.AlignFirst
+                      Relvar.Pretty.BoxesText.AlignFirst
+                      b1)) -}
+911d08d696af1755f77b946c46ee2f18
+  nullBox :: Relvar.Pretty.BoxesText.Box
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (Relvar.Pretty.BoxesText.Box
+                   Relvar.Pretty.BoxesText.$fShowBox8
+                   Relvar.Pretty.BoxesText.$fShowBox8
+                   Relvar.Pretty.BoxesText.Blank) -}
+07737b758fa4ffdbed29f2629c100401
+  para ::
+    Relvar.Pretty.BoxesText.Alignment
+    -> GHC.Types.Int
+    -> Data.Text.Internal.Text
+    -> Relvar.Pretty.BoxesText.Box
+  {- Arity: 3, Strictness: <L,U><L,U(U)><L,1*U(U,U,U)>m,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ w :: Relvar.Pretty.BoxesText.Alignment
+                   w1 :: GHC.Types.Int
+                   w2 :: Data.Text.Internal.Text ->
+                 case Relvar.Pretty.BoxesText.$wpara
+                        w
+                        w1
+                        w2 of ww { (#,,#) ww1 ww2 ww3 ->
+                 Relvar.Pretty.BoxesText.Box ww1 ww2 ww3 }) -}
+1361c89d2794338b0109718fc5af1a49
+  paraContent ::
+    Relvar.Pretty.BoxesText.Para -> Relvar.Pretty.BoxesText.ParaContent
+  RecSel Relvar.Pretty.BoxesText.Para
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(A,1*U(U,U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Relvar.Pretty.BoxesText.Para ->
+                 case ds of wild { Relvar.Pretty.BoxesText.Para ds1 ds2 -> ds2 }) -}
+7764ab1557c2d164238e5f89067f3d21
+  paraWidth :: Relvar.Pretty.BoxesText.Para -> GHC.Types.Int
+  RecSel Relvar.Pretty.BoxesText.Para
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U(U),A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Relvar.Pretty.BoxesText.Para ->
+                 case ds of wild { Relvar.Pretty.BoxesText.Para ds1 ds2 -> ds1 }) -}
+a162c23645d60bd718f6fc93166a96ac
+  printBox :: Relvar.Pretty.BoxesText.Box -> GHC.Types.IO ()
+  {- Arity: 2, Strictness: <L,1*U(U(U),U(U),1*U)><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Relvar.Pretty.BoxesText.printBox1
+                  `cast`
+                (<Relvar.Pretty.BoxesText.Box>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+ba4369391361a39b6d528d9b5705c803
+  printBox1 ::
+    Relvar.Pretty.BoxesText.Box
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 2, Strictness: <L,1*U(U(U),U(U),1*U)><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ x :: Relvar.Pretty.BoxesText.Box
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 Data.Text.IO.appendFile2
+                   GHC.IO.Handle.FD.stdout
+                   (Relvar.Pretty.BoxesText.render x)
+                   eta) -}
+e8faa6688ae80102649cb8808a81406f
+  punctuateH ::
+    Relvar.Pretty.BoxesText.Alignment
+    -> Relvar.Pretty.BoxesText.Box
+    -> [Relvar.Pretty.BoxesText.Box]
+    -> Relvar.Pretty.BoxesText.Box
+  {- Arity: 3, Strictness: <L,U><L,U><L,1*U>m,
+     Unfolding: InlineRule (3, True, False)
+                (\ a3 :: Relvar.Pretty.BoxesText.Alignment
+                   p :: Relvar.Pretty.BoxesText.Box
+                   bs :: [Relvar.Pretty.BoxesText.Box] ->
+                 Relvar.Pretty.BoxesText.hcat
+                   a3
+                   (Data.OldList.intersperse @ Relvar.Pretty.BoxesText.Box p bs)) -}
+a85fb7665b03335f682d4bbbd4d78eb0
+  punctuateV ::
+    Relvar.Pretty.BoxesText.Alignment
+    -> Relvar.Pretty.BoxesText.Box
+    -> [Relvar.Pretty.BoxesText.Box]
+    -> Relvar.Pretty.BoxesText.Box
+  {- Arity: 3, Strictness: <L,U><L,U><L,1*U>m,
+     Unfolding: InlineRule (3, True, False)
+                (\ a3 :: Relvar.Pretty.BoxesText.Alignment
+                   p :: Relvar.Pretty.BoxesText.Box
+                   bs :: [Relvar.Pretty.BoxesText.Box] ->
+                 Relvar.Pretty.BoxesText.vcat
+                   a3
+                   (Data.OldList.intersperse @ Relvar.Pretty.BoxesText.Box p bs)) -}
+1de8f89994ccb52988856398efed48ef
+  render :: Relvar.Pretty.BoxesText.Box -> Data.Text.Internal.Text
+  {- Arity: 1, Strictness: <S(LLS),1*U(U(U),U(U),1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: Relvar.Pretty.BoxesText.Box ->
+                 case w of ww { Relvar.Pretty.BoxesText.Box ww1 ww2 ww3 ->
+                 Relvar.Pretty.BoxesText.$wrender ww1 ww2 ww3 }) -}
+121dc09b80baeff7c81d2b7b7aa00668
+  render1 :: Data.Text.Internal.Text -> Data.Text.Internal.Text
+  {- Arity: 1 -}
+7545138ce0bceb8b393e618982c5973b
+  right :: Relvar.Pretty.BoxesText.Alignment
+  {- HasNoCafRefs,
+     Unfolding: InlineRule (0, True, True)
+                Relvar.Pretty.BoxesText.AlignLast -}
+5eb341d4c1f9512d4634587591012bf7
+  rows :: Relvar.Pretty.BoxesText.Box -> GHC.Types.Int
+  RecSel Relvar.Pretty.BoxesText.Box
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SLL),1*U(1*U(U),A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Relvar.Pretty.BoxesText.Box ->
+                 case ds of wild { Relvar.Pretty.BoxesText.Box ds1 ds2 ds3 ->
+                 ds1 }) -}
+4a6e93b5cb9f8ffec760359fba015f2b
+  text :: Data.Text.Internal.Text -> Relvar.Pretty.BoxesText.Box
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U(U,U,U)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ t :: Data.Text.Internal.Text ->
+                 Relvar.Pretty.BoxesText.Box
+                   Relvar.Pretty.BoxesText.$fIsStringBox1
+                   (Data.Text.length t)
+                   (Relvar.Pretty.BoxesText.Text t)) -}
+d8635a8a208c2ceb52ca6ce16eecf4fa
+  top :: Relvar.Pretty.BoxesText.Alignment
+  {- HasNoCafRefs,
+     Unfolding: InlineRule (0, True, True)
+                Relvar.Pretty.BoxesText.AlignFirst -}
+750a1bf82ca20b1d1d675d639aed9a67
+  vcat ::
+    Relvar.Pretty.BoxesText.Alignment
+    -> [Relvar.Pretty.BoxesText.Box] -> Relvar.Pretty.BoxesText.Box
+  {- Arity: 2, Strictness: <L,U><L,U>m, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ w :: Relvar.Pretty.BoxesText.Alignment
+                   w1 :: [Relvar.Pretty.BoxesText.Box] ->
+                 case Relvar.Pretty.BoxesText.$wvcat
+                        w
+                        w1 of ww { (#,,#) ww1 ww2 ww3 ->
+                 Relvar.Pretty.BoxesText.Box ww1 ww2 ww3 }) -}
+d78668122aba18cc88ae5f7609a787b6
+  vsep ::
+    GHC.Types.Int
+    -> Relvar.Pretty.BoxesText.Alignment
+    -> [Relvar.Pretty.BoxesText.Box]
+    -> Relvar.Pretty.BoxesText.Box
+  {- Arity: 3, Strictness: <L,U><L,U><L,1*U>m,
+     Unfolding: InlineRule (3, True, False)
+                (\ sep :: GHC.Types.Int
+                   a3 :: Relvar.Pretty.BoxesText.Alignment
+                   bs :: [Relvar.Pretty.BoxesText.Box] ->
+                 Relvar.Pretty.BoxesText.vcat
+                   a3
+                   (case bs of wild {
+                      [] -> GHC.Types.[] @ Relvar.Pretty.BoxesText.Box
+                      : x xs1
+                      -> GHC.Types.:
+                           @ Relvar.Pretty.BoxesText.Box
+                           x
+                           (Data.OldList.prependToAll
+                              @ Relvar.Pretty.BoxesText.Box
+                              (Relvar.Pretty.BoxesText.Box
+                                 sep
+                                 Relvar.Pretty.BoxesText.$fShowBox8
+                                 Relvar.Pretty.BoxesText.Blank)
+                              xs1) })) -}
+a4ee9da3b2e2a94e313c81dc1d8ec972
+  wLen :: Relvar.Pretty.BoxesText.Word -> GHC.Types.Int
+  RecSel Relvar.Pretty.BoxesText.Word
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U(U),A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Relvar.Pretty.BoxesText.Word ->
+                 case ds of wild { Relvar.Pretty.BoxesText.Word ds1 ds2 -> ds1 }) -}
+instance GHC.Classes.Eq [Relvar.Pretty.BoxesText.Alignment]
+  = Relvar.Pretty.BoxesText.$fEqAlignment
+instance Data.String.IsString [Relvar.Pretty.BoxesText.Box]
+  = Relvar.Pretty.BoxesText.$fIsStringBox
+instance GHC.Read.Read [Relvar.Pretty.BoxesText.Alignment]
+  = Relvar.Pretty.BoxesText.$fReadAlignment
+instance GHC.Show.Show [Relvar.Pretty.BoxesText.Alignment]
+  = Relvar.Pretty.BoxesText.$fShowAlignment
+instance GHC.Show.Show [Relvar.Pretty.BoxesText.Box]
+  = Relvar.Pretty.BoxesText.$fShowBox
+instance GHC.Show.Show [Relvar.Pretty.BoxesText.Content]
+  = Relvar.Pretty.BoxesText.$fShowContent
+"SPEC/Relvar.Pretty.BoxesText $dmreadsPrec @ Alignment" [ALWAYS] forall $dRead :: GHC.Read.Read
+                                                                                    Relvar.Pretty.BoxesText.Alignment
+  GHC.Read.$dmreadsPrec @ Relvar.Pretty.BoxesText.Alignment $dRead
+  = Relvar.Pretty.BoxesText.$fReadAlignment_$s$dmreadsPrec
+"SPEC/Relvar.Pretty.BoxesText readListDefault @ Alignment" [ALWAYS] forall $dRead :: GHC.Read.Read
+                                                                                       Relvar.Pretty.BoxesText.Alignment
+  GHC.Read.readListDefault @ Relvar.Pretty.BoxesText.Alignment $dRead
+  = Relvar.Pretty.BoxesText.$fReadAlignment_$sreadListDefault
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

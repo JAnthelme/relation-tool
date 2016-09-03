@@ -1,0 +1,1126 @@
+
+==================== FINAL INTERFACE ====================
+2016-09-03 15:13:49.273633 UTC
+
+interface relat_8Cyn3M6UKgN11sASBif9n4:Relvar.LSet 7103
+  interface hash: aaed4237d141600252e73dcdaecceb18
+  ABI hash: e65ac2554d77b7defb57213d61690388
+  export-list hash: e67b13b4f199227347786d8a9c9bc6fd
+  orphan hash: 183d80e90e6032da2b264c1800955165
+  flag hash: e3ff1689d21251fa452ca77ee1b63804
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Relvar.LSet.checkLabels
+  Relvar.LSet.common
+  Relvar.LSet.compatibleLabels
+  Relvar.LSet.delete
+  Relvar.LSet.empty
+  Relvar.LSet.extract
+  Relvar.LSet.extract2
+  Relvar.LSet.extractWithLabels
+  Relvar.LSet.fromList
+  Relvar.LSet.insert
+  Relvar.LSet.project
+  Relvar.LSet.projectaway
+  Relvar.LSet.singleton
+  Relvar.LSet.toList
+  Relvar.LSet.union
+  Relvar.LSet.values
+  Relvar.LSet.LSet
+  Relvar.LSet.LabelOp{Relvar.LSet.compatible Relvar.LSet.degree Relvar.LSet.disjoint Relvar.LSet.labels Relvar.LSet.match Relvar.LSet.rename}
+module dependencies:
+package dependencies: array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA
+                      base-4.8.2.0* containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU*
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59 ghc-prim-0.4.0.0
+                      integer-gmp-1.0.0.0
+orphans: base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+family instance modules: base-4.8.2.0:Control.Applicative
+                         base-4.8.2.0:Data.Either base-4.8.2.0:Data.Functor.Identity
+                         base-4.8.2.0:Data.Monoid base-4.8.2.0:Data.Type.Equality
+                         base-4.8.2.0:Data.Void base-4.8.2.0:GHC.Exts
+                         base-4.8.2.0:GHC.Generics
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+import  -/  base-4.8.2.0:Data.Foldable 2ce969969ad5231eb40bd713f94f05ad
+import  -/  base-4.8.2.0:Data.List 3f0782c8d4bf50eecefcd5ea1798aac8
+import  -/  base-4.8.2.0:Data.Maybe 1cb58de2b04ee3c0c0a7dc9201184aff
+import  -/  base-4.8.2.0:Data.OldList d8fd80b0e14aa085ce6219cd89dad356
+import  -/  base-4.8.2.0:Data.Tuple 012ad951a59a9d85fe1de36a2f012986
+import  -/  base-4.8.2.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.2.0:GHC.List 0c736920522bbd14b770342776012ab6
+import  -/  base-4.8.2.0:GHC.Show 0e1d8380a8fb0cfb07ebeda3b70cbf38
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base 642e37808d03e24efbe8e8ff1336f343
+import  -/  containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Strict 47720a1b98e2fcc2f040f344c61b35f5
+import  -/  containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set 7116dff3002cb8f8fc1c63ac63f4ea50
+import  -/  containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base 681af891dffe392ee938c8b49d69f236
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+76e67cc010cf6f98b6fe752a5ba99c96
+  $fLabelOpSet ::
+    (GHC.Classes.Ord a, GHC.Show.Show a) =>
+    Relvar.LSet.LabelOp (Relvar.LSet.LSet a)
+  DFunId[0]
+  {- Arity: 2,
+     Strictness: <L,U(U(U,U),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),A,A)><L,U(C(C1(U)),A,A)>m,
+     Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun: @ a
+                      $dOrd :: GHC.Classes.Ord a
+                      $dShow :: GHC.Show.Show a.
+                  @ (Relvar.LSet.LSet a)
+                  (Relvar.LSet.$fLabelOpSet_$ccompatible @ a $dOrd $dShow)
+                  (Relvar.LSet.$fLabelOpSet_$cmatch @ a $dOrd $dShow)
+                  (Relvar.LSet.$fLabelOpSet_$cdisjoint @ a $dOrd $dShow)
+                  (Relvar.LSet.$fLabelOpSet_$crename @ a $dOrd $dShow)
+                  (Relvar.LSet.$fLabelOpSet_$clabels @ a $dOrd $dShow)
+                  (Relvar.LSet.$fLabelOpSet_$cdegree @ a $dOrd $dShow) -}
+f9952ff59e2a58aaef9a6c9d1e819cfc
+  $fLabelOpSet1 ::
+    [[GHC.Types.Char]]
+    -> Data.Set.Base.Set (GHC.Base.String, a) -> [[GHC.Types.Char]]
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,1*U><S,1*U> -}
+5ebf6e88c7a7e68a19068d7aab2f2915
+  $fLabelOpSet2 :: Relvar.LSet.LSet a
+  {- Strictness: b -}
+273ea9ba1f93c0c0aed1d252c52c0673
+  $fLabelOpSet3 ::
+    Data.Map.Base.Map GHC.Base.String a1
+    -> [(GHC.Base.String, a1)] -> Data.Map.Base.Map GHC.Base.String a1
+  {- Arity: 2, Strictness: <S,1*U><S,1*U> -}
+d7295bed34ec757fefcff63774d3ab7a
+  $fLabelOpSet4 ::
+    [Data.Set.Base.Set (GHC.Base.String, a)]
+    -> GHC.Show.Show (Relvar.LSet.LSet a) => GHC.Types.Bool
+  {- Arity: 2, Strictness: <L,U><L,U>b -}
+b75ee69ef2bfdcab4e70907e52266423
+  $fLabelOpSet_$ccompatible ::
+    (GHC.Classes.Ord a, GHC.Show.Show a,
+     GHC.Classes.Ord (Relvar.LSet.LSet a),
+     GHC.Show.Show (Relvar.LSet.LSet a)) =>
+    Relvar.LSet.LSet a -> Relvar.LSet.LSet a -> GHC.Types.Bool
+  {- Arity: 6,
+     Strictness: <L,U(U(U,U),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),A,A)><L,A><L,1*U(1*U(C(C1(U)),A),A,A,A,A,A,A,A)><L,1*U(A,A,1*C1(C1(U)))><L,U><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (6, True, True)
+                (\ @ a
+                   w :: GHC.Classes.Ord a
+                   w1 :: GHC.Show.Show a
+                   w2 :: GHC.Classes.Ord (Relvar.LSet.LSet a)
+                   w3 :: GHC.Show.Show (Relvar.LSet.LSet a)
+                   w4 :: Relvar.LSet.LSet a
+                   w5 :: Relvar.LSet.LSet a ->
+                 Relvar.LSet.$w$ccompatible @ a w w2 w3 w4 w5) -}
+9bbce1f2c147e38b4dddd149eb5d1026
+  $fLabelOpSet_$cdegree ::
+    (GHC.Classes.Ord a, GHC.Show.Show a) =>
+    Relvar.LSet.LSet a -> GHC.Types.Int
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,A><L,A>,
+     Unfolding: InlineRule (2, True, True)
+                (\ @ a
+                   $dOrd :: GHC.Classes.Ord a
+                   $dShow :: GHC.Show.Show a
+                   eta :: Data.Set.Base.Set (GHC.Base.String, a) ->
+                 Data.Set.Base.size @ (GHC.Base.String, a) eta) -}
+35cb67f1b8c4717dfad9b252e315f9c9
+  $fLabelOpSet_$cdisjoint ::
+    (GHC.Classes.Ord a, GHC.Show.Show a,
+     GHC.Classes.Ord (Relvar.LSet.LSet a)) =>
+    Relvar.LSet.LSet a -> Relvar.LSet.LSet a -> GHC.Types.Bool
+  {- Arity: 3,
+     Strictness: <L,U(U(U,U),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),A,A)><L,U(C(C1(U)),A,A)><L,U(U(C(C1(U)),A),A,A,A,A,A,A,A)>,
+     Unfolding: (\ @ a
+                   $dOrd :: GHC.Classes.Ord a
+                   $dShow :: GHC.Show.Show a
+                   eta :: GHC.Classes.Ord (Relvar.LSet.LSet a) ->
+                 let {
+                   $dShow1 :: GHC.Show.Show (GHC.Base.String, a)
+                   = GHC.Show.$fShow(,)
+                       @ [GHC.Types.Char]
+                       @ a
+                       GHC.Show.$fShow[]_$s$fShow[]1
+                       $dShow
+                 } in
+                 let {
+                   $dShow2 :: GHC.Show.Show (Relvar.LSet.LSet a)
+                   = Data.Set.Base.$fShowSet @ (GHC.Base.String, a) $dShow1
+                 } in
+                 let {
+                   $dEq :: GHC.Classes.Eq a = GHC.Classes.$p1Ord @ a $dOrd
+                 } in
+                 let {
+                   $dEq1 :: GHC.Classes.Eq ([GHC.Types.Char], a)
+                   = GHC.Classes.$fEq(,)
+                       @ [GHC.Types.Char]
+                       @ a
+                       GHC.Classes.$fEq[]_$s$fEq[]1
+                       $dEq
+                 } in
+                 let {
+                   $dOrd1 :: GHC.Classes.Ord (GHC.Base.String, a)
+                   = GHC.Classes.$fOrd(,)
+                       @ [GHC.Types.Char]
+                       @ a
+                       $dEq1
+                       GHC.Classes.$fOrd[]_$s$fOrd[]1
+                       $dOrd
+                 } in
+                 \ lset1 :: Relvar.LSet.LSet a lset2 :: Relvar.LSet.LSet a ->
+                 case Relvar.LSet.$w$ccompatible
+                        @ a
+                        $dOrd
+                        eta
+                        $dShow2
+                        lset1
+                        lset2 of wild {
+                   GHC.Types.False -> GHC.Types.False
+                   GHC.Types.True
+                   -> case lset1 of wild1 {
+                        Data.Set.Base.Bin ipv ipv1 ipv2 ipv3
+                        -> case lset2 of wild2 {
+                             Data.Set.Base.Bin ipv4 ipv5 ipv6 ipv7
+                             -> case Data.Set.Base.intersection_$shedgeInt
+                                       @ (GHC.Base.String, a)
+                                       $dOrd1
+                                       (Data.Set.Base.NothingS @ (GHC.Base.String, a))
+                                       (Data.Set.Base.NothingS @ (GHC.Base.String, a))
+                                       ipv
+                                       ipv1
+                                       ipv2
+                                       ipv3
+                                       ipv4
+                                       ipv5
+                                       ipv6
+                                       ipv7 of wild3 {
+                                  Data.Set.Base.Bin dt ds1 ds2 ds3
+                                  -> case dt of wild4 {
+                                       DEFAULT -> GHC.Types.False 0 -> GHC.Types.True }
+                                  Data.Set.Base.Tip -> GHC.Types.True }
+                             Data.Set.Base.Tip -> GHC.Types.True }
+                        Data.Set.Base.Tip -> GHC.Types.True } }) -}
+cae3d5a4bef2d91d854f137ddf7696d3
+  $fLabelOpSet_$clabels ::
+    (GHC.Classes.Ord a, GHC.Show.Show a) =>
+    Relvar.LSet.LSet a -> [GHC.Base.String]
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,A><L,A><S,1*U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, True)
+                (\ @ a
+                   w :: GHC.Classes.Ord a
+                   w1 :: GHC.Show.Show a
+                   w2 :: Relvar.LSet.LSet a ->
+                 Relvar.LSet.$w$clabels @ a w2) -}
+0e128f8d3aecb74be6f00358942580e2
+  $fLabelOpSet_$cmatch ::
+    (GHC.Classes.Ord a, GHC.Show.Show a,
+     GHC.Classes.Eq (Relvar.LSet.LSet a)) =>
+    Relvar.LSet.LSet a -> Relvar.LSet.LSet a -> GHC.Types.Bool
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,A><L,A>,
+     Unfolding: InlineRule (2, True, True)
+                (\ @ a
+                   $dOrd :: GHC.Classes.Ord a
+                   $dShow :: GHC.Show.Show a
+                   eta :: GHC.Classes.Eq (Relvar.LSet.LSet a) ->
+                 GHC.Classes.== @ (Relvar.LSet.LSet a) eta) -}
+a3470b163932ecddf71a3cd753c2193b
+  $fLabelOpSet_$crename ::
+    (GHC.Classes.Ord a, GHC.Show.Show a) =>
+    Relvar.LSet.LSet a
+    -> [GHC.Base.String] -> [GHC.Base.String] -> Relvar.LSet.LSet a
+  {- Arity: 5,
+     Strictness: <L,U(1*U(C(C1(U)),A),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),A,A)><L,A><S,U><S,U><S,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (5, True, True)
+                (\ @ a
+                   w :: GHC.Classes.Ord a
+                   w1 :: GHC.Show.Show a
+                   w2 :: Relvar.LSet.LSet a
+                   w3 :: [GHC.Base.String]
+                   w4 :: [GHC.Base.String] ->
+                 Relvar.LSet.$w$crename @ a w w2 w3 w4) -}
+7338ab54ab5cc6df37a8ca887999d5cb
+  $fLabelOpSet_$sfindWithDefault ::
+    a -> GHC.Base.String -> Data.Map.Base.Map GHC.Base.String a -> a
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,U><S,1*U><S,1*U>,
+     Unfolding: (\ @ a
+                   def :: a
+                   k1 :: GHC.Base.String
+                   eta :: Data.Map.Base.Map GHC.Base.String a ->
+                 case k1 of k2 { DEFAULT ->
+                 letrec {
+                   go4 :: Data.Map.Base.Map GHC.Base.String a -> a
+                     {- Arity: 1, Strictness: <S,1*U> -}
+                   = \ ds :: Data.Map.Base.Map GHC.Base.String a ->
+                     case ds of wild {
+                       Data.Map.Base.Bin dt kx x l r
+                       -> case GHC.Classes.$fOrd[]_$s$ccompare1 k2 kx of wild1 {
+                            GHC.Types.LT -> go4 l GHC.Types.EQ -> x GHC.Types.GT -> go4 r }
+                       Data.Map.Base.Tip -> def }
+                 } in
+                 go4 eta }) -}
+75b21c118aa9b04742b1daffa824b1f1
+  $fLabelOpSet_$sfromList ::
+    [(GHC.Base.String, a)] -> Data.Map.Base.Map GHC.Base.String a
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ @ a ds :: [(GHC.Base.String, a)] ->
+                 case ds of wild {
+                   [] -> Data.Map.Base.Tip @ GHC.Base.String @ a
+                   : ds1 ds2
+                   -> case ds1 of wild1 { (,) kx x ->
+                      case ds2 of wild2 {
+                        []
+                        -> case x of x1 { DEFAULT ->
+                           case kx of dt { DEFAULT ->
+                           Data.Map.Base.Bin
+                             @ GHC.Base.String
+                             @ a
+                             1
+                             dt
+                             x1
+                             (Data.Map.Base.Tip @ GHC.Base.String @ a)
+                             (Data.Map.Base.Tip @ GHC.Base.String @ a) } }
+                        : ipv ipv1
+                        -> case ipv of wild3 { (,) ky ds3 ->
+                           case GHC.Classes.$fOrd[]_$s$ccompare1 kx ky of wild4 {
+                             DEFAULT
+                             -> case x of x0 { DEFAULT ->
+                                case kx of dt { DEFAULT ->
+                                Relvar.LSet.$fLabelOpSet3
+                                  @ a
+                                  (Data.Map.Base.Bin
+                                     @ GHC.Base.String
+                                     @ a
+                                     1
+                                     dt
+                                     x0
+                                     (Data.Map.Base.Tip @ GHC.Base.String @ a)
+                                     (Data.Map.Base.Tip @ GHC.Base.String @ a))
+                                  wild2 } }
+                             GHC.Types.LT
+                             -> case x of x0 { DEFAULT ->
+                                case kx of dt { DEFAULT ->
+                                Relvar.LSet.$wpoly_go4
+                                  @ a
+                                  1
+                                  (Data.Map.Base.Bin
+                                     @ GHC.Base.String
+                                     @ a
+                                     1
+                                     dt
+                                     x0
+                                     (Data.Map.Base.Tip @ GHC.Base.String @ a)
+                                     (Data.Map.Base.Tip @ GHC.Base.String @ a))
+                                  wild2 } } } } } } }) -}
+76e67cc010cf6f98b6fe752a5ba99c96
+  $fLabelOp[] :: Relvar.LSet.LabelOp [GHC.Base.String]
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ [GHC.Base.String]
+                  Relvar.LSet.$fLabelOp[]_$ccompatible
+                  Relvar.LSet.$fLabelOp[]_$cmatch
+                  Relvar.LSet.$fLabelOp[]_$cdisjoint
+                  Relvar.LSet.$fLabelOp[]_$crename
+                  (GHC.Base.id @ [GHC.Base.String])
+                  Relvar.LSet.$fLabelOp[]_$cdegree -}
+beea5b71962fd0480ab2f8fc4fd6edf4
+  $fLabelOp[]1 :: [GHC.Base.String]
+  {- Strictness: b -}
+f00e5befe98e802640d8fd413ed15aad
+  $fLabelOp[]_$ccompatible ::
+    (GHC.Classes.Ord [GHC.Base.String],
+     GHC.Show.Show [GHC.Base.String]) =>
+    [GHC.Base.String] -> [GHC.Base.String] -> GHC.Types.Bool
+  {- Arity: 4, HasNoCafRefs, Strictness: <L,A><L,A><L,A><L,A>,
+     Unfolding: InlineRule (4, True, True)
+                (\ $dOrd :: GHC.Classes.Ord [GHC.Base.String]
+                   $dShow :: GHC.Show.Show [GHC.Base.String]
+                   l1 :: [GHC.Base.String]
+                   l2 :: [GHC.Base.String] ->
+                 GHC.Types.True) -}
+f76212c36db44bfb422d9fbd61a9344f
+  $fLabelOp[]_$cdegree :: [GHC.Base.String] -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>m,
+     Unfolding: InlineRule (0, True, True)
+                (GHC.List.length @ GHC.Base.String) -}
+ce906c999a906c7007bec7599ab77c8b
+  $fLabelOp[]_$cdisjoint ::
+    GHC.Classes.Ord [GHC.Base.String] =>
+    [GHC.Base.String] -> [GHC.Base.String] -> GHC.Types.Bool
+  {- Arity: 3, Strictness: <B,A><B,A><B,A>b,
+     Unfolding: InlineRule (3, True, True)
+                (\ $dOrd :: GHC.Classes.Ord [GHC.Base.String]
+                   ls1 :: [GHC.Base.String]
+                   ls2 :: [GHC.Base.String] ->
+                 GHC.Err.undefined @ GHC.Types.Bool) -}
+ddaf517e1eb2f7369808aea03489e73b
+  $fLabelOp[]_$cmatch ::
+    GHC.Classes.Eq [GHC.Base.String] =>
+    [GHC.Base.String] -> [GHC.Base.String] -> GHC.Types.Bool
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*U><L,1*U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ $dEq :: GHC.Classes.Eq [GHC.Base.String]
+                   lbls1 :: [GHC.Base.String]
+                   lbls2 :: [GHC.Base.String] ->
+                 GHC.Classes.==
+                   @ [GHC.Base.String]
+                   $dEq
+                   (Data.OldList.sortBy
+                      @ GHC.Base.String
+                      GHC.Classes.$fOrd[]_$s$ccompare1
+                      lbls1)
+                   (Data.OldList.sortBy
+                      @ GHC.Base.String
+                      GHC.Classes.$fOrd[]_$s$ccompare1
+                      lbls2)) -}
+a51cd3bb8429a614b86f66cf133fb6fa
+  $fLabelOp[]_$crename ::
+    [GHC.Base.String]
+    -> [GHC.Base.String] -> [GHC.Base.String] -> [GHC.Base.String]
+  {- Arity: 3, Strictness: <S,1*U><S,U><S,U>,
+     Unfolding: (\ lbls :: [GHC.Base.String]
+                   olds :: [GHC.Base.String]
+                   news :: [GHC.Base.String] ->
+                 case Relvar.LSet.hasDups olds of wild {
+                   GHC.Types.False
+                   -> case Relvar.LSet.hasDups news of wild1 {
+                        GHC.Types.False
+                        -> let {
+                             mp :: Data.Map.Base.Map GHC.Base.String GHC.Base.String
+                             = Relvar.LSet.$fLabelOpSet_$sfromList
+                                 @ [GHC.Types.Char]
+                                 (GHC.List.zip @ [GHC.Types.Char] @ [GHC.Types.Char] olds news)
+                           } in
+                           let {
+                             newlbls :: [GHC.Base.String]
+                             = GHC.Base.map
+                                 @ [GHC.Types.Char]
+                                 @ [GHC.Types.Char]
+                                 (\ x :: GHC.Base.String ->
+                                  Relvar.LSet.$fLabelOpSet_$sfindWithDefault
+                                    @ [GHC.Types.Char]
+                                    x
+                                    x
+                                    mp)
+                                 lbls
+                           } in
+                           case Relvar.LSet.hasDups newlbls of wild2 {
+                             GHC.Types.False -> newlbls
+                             GHC.Types.True -> Relvar.LSet.$fLabelOp[]1 }
+                        GHC.Types.True -> Relvar.LSet.$fLabelOp[]1 }
+                   GHC.Types.True -> Relvar.LSet.$fLabelOp[]1 }) -}
+0eaf1cc53a8b5766879c7fd97c042fd9
+  $sinsert_$sgo4 ::
+    GHC.Base.String
+    -> a1
+    -> Data.Map.Base.Map GHC.Base.String a1
+    -> Data.Map.Base.Map GHC.Base.String a1
+  {- Arity: 3, Strictness: <S,1*U><S,1*U><S,1*U> -}
+0523d3dca59739c954f1ec6339b04170
+  $slookup1 ::
+    GHC.Base.String
+    -> Data.Map.Base.Map GHC.Base.String a -> GHC.Base.Maybe a
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U> -}
+6245dddc3a0adebbcef6ac02bb8fd612
+  $w$ccompatible ::
+    (GHC.Classes.Ord a, GHC.Classes.Ord (Relvar.LSet.LSet a),
+     GHC.Show.Show (Relvar.LSet.LSet a)) =>
+    Relvar.LSet.LSet a -> Relvar.LSet.LSet a -> GHC.Types.Bool
+  {- Arity: 5,
+     Strictness: <L,U(U(U,U),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),A,A)><L,1*U(1*U(C(C1(U)),A),A,A,A,A,A,A,A)><L,1*U(A,A,1*C1(C1(U)))><L,U><L,U>,
+     Inline: [0],
+     Unfolding: (\ @ a
+                   w :: GHC.Classes.Ord a
+                   w1 :: GHC.Classes.Ord (Relvar.LSet.LSet a)
+                   w2 :: GHC.Show.Show (Relvar.LSet.LSet a)
+                   w3 :: Relvar.LSet.LSet a
+                   w4 :: Relvar.LSet.LSet a ->
+                 let {
+                   uset :: Relvar.LSet.LSet a = Relvar.LSet.union @ a w w3 w4
+                 } in
+                 letrec {
+                   go5 :: [Data.Set.Base.Set (GHC.Base.String, a)]
+                          -> Data.Set.Base.Set (GHC.Base.String, a)
+                          -> [Data.Set.Base.Set (GHC.Base.String, a)]
+                     {- Arity: 2, Strictness: <L,1*U><S,1*U> -}
+                   = \ z' :: [Data.Set.Base.Set (GHC.Base.String, a)]
+                       ds :: Data.Set.Base.Set (GHC.Base.String, a) ->
+                     case ds of wild {
+                       Data.Set.Base.Bin dt x l r
+                       -> case x of wild1 { (,) x1 ds1 ->
+                          go5
+                            (case Data.Set.Base.filter
+                                    @ (GHC.Base.String, a)
+                                    (\ x2 :: (GHC.Base.String, a) ->
+                                     case x2 of wild2 { (,) x3 ds2 -> GHC.Base.eqString x3 x1 })
+                                    uset of wild2 {
+                               Data.Set.Base.Bin dt1 ds2 ds3 ds4
+                               -> case GHC.Prim.tagToEnum#
+                                         @ GHC.Types.Bool
+                                         (GHC.Prim.># dt1 1) of wild3 {
+                                    GHC.Types.False -> go5 z' r
+                                    GHC.Types.True
+                                    -> GHC.Types.:
+                                         @ (Data.Set.Base.Set (GHC.Base.String, a))
+                                         wild2
+                                         (go5 z' r) }
+                               Data.Set.Base.Tip -> go5 z' r })
+                            l }
+                       Data.Set.Base.Tip -> z' }
+                 } in
+                 let {
+                   incompatibleSet :: [Data.Set.Base.Set (GHC.Base.String, a)]
+                   = Data.OldList.nubBy
+                       @ (Data.Set.Base.Set (GHC.Base.String, a))
+                       (Data.Set.Base.$fEqSet_$c==
+                          @ (GHC.Base.String, a)
+                          (GHC.Classes.$fEq(,)
+                             @ [GHC.Types.Char]
+                             @ a
+                             GHC.Classes.$fEq[]_$s$fEq[]1
+                             (GHC.Classes.$p1Ord @ a w)))
+                       (go5
+                          (GHC.Types.[] @ (Data.Set.Base.Set (GHC.Base.String, a)))
+                          uset)
+                 } in
+                 case GHC.Classes.$fEq[]_$c==
+                        @ (Data.Set.Base.Set (GHC.Base.String, a))
+                        (GHC.Classes.$p1Ord @ (Relvar.LSet.LSet a) w1)
+                        incompatibleSet
+                        (GHC.Types.[] @ (Data.Set.Base.Set (GHC.Base.String, a))) of wild {
+                   GHC.Types.False -> Relvar.LSet.$fLabelOpSet4 @ a incompatibleSet w2
+                   GHC.Types.True -> GHC.Types.True }) -}
+b4e2de995126d1e5926c5ef11f384c5e
+  $w$clabels :: Relvar.LSet.LSet a -> [[GHC.Types.Char]]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ @ a w :: Relvar.LSet.LSet a ->
+                 Relvar.LSet.$fLabelOpSet1
+                   @ a
+                   (GHC.Types.[] @ [GHC.Types.Char])
+                   w) -}
+1c7ae1af8bc16b7eac486f62edcd0b46
+  $w$crename ::
+    GHC.Classes.Ord a =>
+    Relvar.LSet.LSet a
+    -> [GHC.Base.String] -> [GHC.Base.String] -> Relvar.LSet.LSet a
+  {- Arity: 4,
+     Strictness: <L,U(1*U(C(C1(U)),A),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),A,A)><S,U><S,U><S,U>,
+     Inline: [0],
+     Unfolding: (\ @ a
+                   w :: GHC.Classes.Ord a
+                   w1 :: Relvar.LSet.LSet a
+                   w2 :: [GHC.Base.String]
+                   w3 :: [GHC.Base.String] ->
+                 case Relvar.LSet.hasDups w2 of wild {
+                   GHC.Types.False
+                   -> case Relvar.LSet.hasDups w3 of wild1 {
+                        GHC.Types.False
+                        -> let {
+                             mp :: Data.Map.Base.Map GHC.Base.String GHC.Base.String
+                             = Relvar.LSet.$fLabelOpSet_$sfromList
+                                 @ [GHC.Types.Char]
+                                 (GHC.List.zip @ [GHC.Types.Char] @ [GHC.Types.Char] w2 w3)
+                           } in
+                           letrec {
+                             go5 :: [[GHC.Types.Char]]
+                                    -> Data.Set.Base.Set (GHC.Base.String, a) -> [[GHC.Types.Char]]
+                               {- Arity: 2, Strictness: <L,1*U><S,1*U> -}
+                             = \ z' :: [[GHC.Types.Char]]
+                                 ds :: Data.Set.Base.Set (GHC.Base.String, a) ->
+                               case ds of wild2 {
+                                 Data.Set.Base.Bin dt x l r
+                                 -> case x of wild3 { (,) x1 ds1 ->
+                                    go5
+                                      (GHC.Types.:
+                                         @ [GHC.Types.Char]
+                                         (Relvar.LSet.$fLabelOpSet_$sfindWithDefault
+                                            @ [GHC.Types.Char]
+                                            x1
+                                            x1
+                                            mp)
+                                         (go5 z' r))
+                                      l }
+                                 Data.Set.Base.Tip -> z' }
+                           } in
+                           case Relvar.LSet.hasDups
+                                  (go5 (GHC.Types.[] @ [GHC.Types.Char]) w1) of wild2 {
+                             GHC.Types.False
+                             -> Data.Set.Base.map
+                                  @ (GHC.Base.String, a)
+                                  @ (GHC.Base.String, a)
+                                  (GHC.Classes.$fOrd(,)
+                                     @ [GHC.Types.Char]
+                                     @ a
+                                     (GHC.Classes.$fEq(,)
+                                        @ [GHC.Types.Char]
+                                        @ a
+                                        GHC.Classes.$fEq[]_$s$fEq[]1
+                                        (GHC.Classes.$p1Ord @ a w))
+                                     GHC.Classes.$fOrd[]_$s$fOrd[]1
+                                     w)
+                                  (\ ds :: (GHC.Base.String, a) ->
+                                   case ds of wild3 { (,) l e ->
+                                   (Relvar.LSet.$fLabelOpSet_$sfindWithDefault
+                                      @ [GHC.Types.Char]
+                                      l
+                                      l
+                                      mp,
+                                    e) })
+                                  w1
+                             GHC.Types.True -> Relvar.LSet.$fLabelOpSet2 @ a }
+                        GHC.Types.True -> Relvar.LSet.$fLabelOpSet2 @ a }
+                   GHC.Types.True -> Relvar.LSet.$fLabelOpSet2 @ a }) -}
+d4847677856d84df2f65c586034523d9
+  $wcompatibleLabels ::
+    GHC.Types.Bool
+    -> Relvar.LSet.LSet a -> [GHC.Base.String] -> GHC.Types.Bool
+  {- Arity: 3, Strictness: <S,1*U><L,U><S,U>, Inline: [0],
+     Unfolding: (\ @ a
+                   w :: GHC.Types.Bool
+                   w1 :: Relvar.LSet.LSet a
+                   w2 :: [GHC.Base.String] ->
+                 case GHC.Classes.$fEq[]_$s$c==2
+                        w2
+                        (GHC.Types.[] @ GHC.Base.String) of wild {
+                   GHC.Types.False
+                   -> case GHC.List.elem
+                             @ [GHC.Types.Char]
+                             GHC.Classes.$fEq[]_$s$fEq[]1
+                             (GHC.Types.[] @ GHC.Types.Char)
+                             w2 of wild1 {
+                        GHC.Types.False
+                        -> let {
+                             $j :: GHC.Prim.Void# -> GHC.Types.Bool
+                               {- Arity: 1, Strictness: <L,A> -}
+                             = \ w3 :: GHC.Prim.Void#[OneShot] ->
+                               let {
+                                 lvl3 :: [[GHC.Types.Char]]
+                                 = Relvar.LSet.compatibleLabels3
+                                     @ a
+                                     (GHC.Types.[] @ [GHC.Types.Char])
+                                     w1
+                               } in
+                               letrec {
+                                 $wgo :: [[GHC.Types.Char]] -> GHC.Prim.Int# -> GHC.Prim.Int#
+                                   {- Arity: 2, Strictness: <S,1*U><L,U>, Inline: [0] -}
+                                 = \ w4 :: [[GHC.Types.Char]] ww :: GHC.Prim.Int# ->
+                                   case w4 of wild2 {
+                                     [] -> ww
+                                     : y ys
+                                     -> case GHC.List.elem
+                                               @ GHC.Base.String
+                                               GHC.Classes.$fEq[]_$s$fEq[]1
+                                               y
+                                               lvl3 of wild3 {
+                                          GHC.Types.False -> $wgo ys (GHC.Prim.+# ww 1)
+                                          GHC.Types.True -> $wgo ys ww } }
+                               } in
+                               case $wgo w2 0 of ww { DEFAULT ->
+                               case GHC.Prim.tagToEnum#
+                                      @ GHC.Types.Bool
+                                      (GHC.Prim.># ww 0) of wild2 {
+                                 GHC.Types.False -> GHC.Types.True
+                                 GHC.Types.True -> Relvar.LSet.compatibleLabels2 } }
+                           } in
+                           case w of wild2 {
+                             GHC.Types.False -> $j GHC.Prim.void#
+                             GHC.Types.True
+                             -> case Relvar.LSet.hasDups w2 of wild3 {
+                                  GHC.Types.False -> $j GHC.Prim.void#
+                                  GHC.Types.True -> Relvar.LSet.checkLabels2 } }
+                        GHC.Types.True -> Relvar.LSet.checkLabels1 }
+                   GHC.Types.True -> Relvar.LSet.compatibleLabels1 }) -}
+6644f4a2fa656cd47dd2a5418c9a5207
+  $wextract ::
+    GHC.Types.Bool -> Relvar.LSet.LSet a -> [GHC.Base.String] -> [a]
+  {- Arity: 3, Strictness: <S,1*U><L,U><S,U>, Inline: [0],
+     Unfolding: (\ @ a
+                   w :: GHC.Types.Bool
+                   w1 :: Relvar.LSet.LSet a
+                   w2 :: [GHC.Base.String] ->
+                 case Relvar.LSet.$wcompatibleLabels @ a w w1 w2 of wild {
+                   GHC.Types.False -> GHC.Err.undefined @ [a]
+                   GHC.Types.True
+                   -> GHC.Base.map
+                        @ [GHC.Types.Char]
+                        @ a
+                        (let {
+                           x :: Data.Map.Base.Map GHC.Base.String a
+                           = Relvar.LSet.$fLabelOpSet_$sfromList
+                               @ a
+                               (Data.Set.Base.toAscList1
+                                  @ (GHC.Base.String, a)
+                                  (GHC.Types.[] @ (GHC.Base.String, a))
+                                  w1)
+                         } in
+                         \ x1 :: GHC.Base.String ->
+                         case Relvar.LSet.$slookup1 @ a x1 x of wild1 {
+                           GHC.Base.Nothing -> Data.Maybe.fromJust1 @ a
+                           GHC.Base.Just x2 -> x2 })
+                        w2 }) -}
+8036e9e2c4e41cbde069597b79eda32e
+  $wextract2 ::
+    [GHC.Base.String]
+    -> [(GHC.Base.String, a)] -> [([GHC.Types.Char], a)]
+  {- Arity: 2, Strictness: <S,U><L,1*U>, Inline: [0],
+     Unfolding: (\ @ a
+                   w :: [GHC.Base.String]
+                   w1 :: [(GHC.Base.String, a)] ->
+                 GHC.List.zip
+                   @ [GHC.Types.Char]
+                   @ a
+                   w
+                   (GHC.Base.map
+                      @ [GHC.Types.Char]
+                      @ a
+                      (let {
+                         x :: Data.Map.Base.Map GHC.Base.String a
+                         = Relvar.LSet.$fLabelOpSet_$sfromList @ a w1
+                       } in
+                       \ x1 :: GHC.Base.String ->
+                       case Relvar.LSet.$slookup1 @ a x1 x of wild {
+                         GHC.Base.Nothing -> Data.Maybe.fromJust1 @ a
+                         GHC.Base.Just x2 -> x2 })
+                      w)) -}
+4fe391e7d96a4c994dc6414c34d3498d
+  $wpoly_go4 ::
+    GHC.Prim.Int#
+    -> Data.Map.Base.Map GHC.Base.String a
+    -> [(GHC.Base.String, a)]
+    -> Data.Map.Base.Map GHC.Base.String a
+  {- Arity: 3, Strictness: <L,U><S,1*U><S,1*U>, Inline: [0] -}
+2a5a1622b83896d83f42b77049f76285
+  $wprojectaway ::
+    Relvar.LSet.LSet a
+    -> [GHC.Base.String] -> Data.Set.Base.Set (GHC.Base.String, a)
+  {- Arity: 2, Strictness: <S,U><L,U>, Inline: [0],
+     Unfolding: (\ @ a
+                   w :: Relvar.LSet.LSet a
+                   w1 :: [GHC.Base.String] ->
+                 let {
+                   lbls :: [GHC.Base.String]
+                   = letrec {
+                       go5 :: [[GHC.Types.Char]]
+                              -> Data.Set.Base.Set (GHC.Base.String, a) -> [[GHC.Types.Char]]
+                         {- Arity: 2, Strictness: <L,1*U><S,1*U> -}
+                       = \ z' :: [[GHC.Types.Char]]
+                           ds :: Data.Set.Base.Set (GHC.Base.String, a) ->
+                         case ds of wild {
+                           Data.Set.Base.Bin dt x l r
+                           -> case x of wild1 { (,) x1 ds1 ->
+                              go5
+                                (case GHC.List.elem
+                                        @ GHC.Base.String
+                                        GHC.Classes.$fEq[]_$s$fEq[]1
+                                        x1
+                                        w1 of wild2 {
+                                   GHC.Types.False -> GHC.Types.: @ [GHC.Types.Char] x1 (go5 z' r)
+                                   GHC.Types.True -> go5 z' r })
+                                l }
+                           Data.Set.Base.Tip -> z' }
+                     } in
+                     go5 (GHC.Types.[] @ [GHC.Types.Char]) w
+                 } in
+                 Data.Set.Base.filter
+                   @ (GHC.Base.String, a)
+                   (\ x :: (GHC.Base.String, a) ->
+                    GHC.List.elem
+                      @ GHC.Base.String
+                      GHC.Classes.$fEq[]_$s$fEq[]1
+                      (case x of wild { (,) x1 ds1 -> x1 })
+                      lbls)
+                   w) -}
+345814e35acf273ee5c610ab1f5e7385
+  type LSet a = Data.Set.Base.Set (GHC.Base.String, a)
+76e67cc010cf6f98b6fe752a5ba99c96
+  class LabelOp a where
+    compatible ::
+      (GHC.Classes.Ord a, GHC.Show.Show a) => a -> a -> GHC.Types.Bool
+    match :: GHC.Classes.Eq a => a -> a -> GHC.Types.Bool
+    disjoint :: GHC.Classes.Ord a => a -> a -> GHC.Types.Bool
+    rename :: a -> [GHC.Base.String] -> [GHC.Base.String] -> a
+    labels :: a -> [GHC.Base.String]
+    degree :: a -> GHC.Types.Int
+e36d687aeae4a0bd4216efa67bc12206
+  checkLabels ::
+    GHC.Types.Bool -> [GHC.Base.String] -> GHC.Types.Bool
+  {- Arity: 2, Strictness: <S,1*U><S,U>,
+     Unfolding: (\ chckDup :: GHC.Types.Bool
+                   lbls :: [GHC.Base.String] ->
+                 case GHC.List.elem
+                        @ [GHC.Types.Char]
+                        GHC.Classes.$fEq[]_$s$fEq[]1
+                        (GHC.Types.[] @ GHC.Types.Char)
+                        lbls of wild {
+                   GHC.Types.False
+                   -> case chckDup of wild1 {
+                        GHC.Types.False -> GHC.Types.True
+                        GHC.Types.True
+                        -> case Relvar.LSet.hasDups lbls of wild2 {
+                             GHC.Types.False -> GHC.Types.True
+                             GHC.Types.True -> Relvar.LSet.checkLabels2 } }
+                   GHC.Types.True -> Relvar.LSet.checkLabels1 }) -}
+587d66f50eeaedbb9f18d4da082b488f
+  checkLabels1 :: GHC.Types.Bool
+  {- Strictness: b -}
+f635edd54e7029e3c86c10649532e73a
+  checkLabels2 :: GHC.Types.Bool
+  {- Strictness: b -}
+32b6b9d5d425d6d66c87d33ddbe341bb
+  common ::
+    GHC.Classes.Ord a =>
+    Relvar.LSet.LSet a -> Relvar.LSet.LSet a -> Relvar.LSet.LSet a
+  {- Arity: 1,
+     Strictness: <L,U(1*U,C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),A,A)>,
+     Unfolding: (\ @ a $dOrd :: GHC.Classes.Ord a ->
+                 let {
+                   $dEq :: GHC.Classes.Eq a = GHC.Classes.$p1Ord @ a $dOrd
+                 } in
+                 let {
+                   $dEq1 :: GHC.Classes.Eq ([GHC.Types.Char], a)
+                   = GHC.Classes.$fEq(,)
+                       @ [GHC.Types.Char]
+                       @ a
+                       GHC.Classes.$fEq[]_$s$fEq[]1
+                       $dEq
+                 } in
+                 let {
+                   $dOrd1 :: GHC.Classes.Ord (GHC.Base.String, a)
+                   = GHC.Classes.$fOrd(,)
+                       @ [GHC.Types.Char]
+                       @ a
+                       $dEq1
+                       GHC.Classes.$fOrd[]_$s$fOrd[]1
+                       $dOrd
+                 } in
+                 \ lset1 :: Relvar.LSet.LSet a lset2 :: Relvar.LSet.LSet a ->
+                 case lset1 of wild {
+                   Data.Set.Base.Bin ipv ipv1 ipv2 ipv3
+                   -> case lset2 of wild1 {
+                        Data.Set.Base.Bin ipv4 ipv5 ipv6 ipv7
+                        -> Data.Set.Base.intersection_$shedgeInt
+                             @ (GHC.Base.String, a)
+                             $dOrd1
+                             (Data.Set.Base.NothingS @ (GHC.Base.String, a))
+                             (Data.Set.Base.NothingS @ (GHC.Base.String, a))
+                             ipv
+                             ipv1
+                             ipv2
+                             ipv3
+                             ipv4
+                             ipv5
+                             ipv6
+                             ipv7
+                        Data.Set.Base.Tip -> Data.Set.Base.Tip @ (GHC.Base.String, a) }
+                   Data.Set.Base.Tip -> Data.Set.Base.Tip @ (GHC.Base.String, a) }) -}
+29d031c43c005493970939c259a7ba4c
+  compatibleLabels ::
+    (GHC.Classes.Ord a, GHC.Show.Show a) =>
+    GHC.Types.Bool
+    -> Relvar.LSet.LSet a -> [GHC.Base.String] -> GHC.Types.Bool
+  {- Arity: 5, Strictness: <L,A><L,A><S,1*U><L,U><S,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (5, True, True)
+                (\ @ a
+                   w :: GHC.Classes.Ord a
+                   w1 :: GHC.Show.Show a
+                   w2 :: GHC.Types.Bool
+                   w3 :: Relvar.LSet.LSet a
+                   w4 :: [GHC.Base.String] ->
+                 Relvar.LSet.$wcompatibleLabels @ a w2 w3 w4) -}
+3548610a772eb9c98b636e44942d5b62
+  compatibleLabels1 :: GHC.Types.Bool
+  {- Strictness: b -}
+16fdefbef79646cf70ee9bac997d408b
+  compatibleLabels2 :: GHC.Types.Bool
+  {- Strictness: b -}
+d54dec06ffcf1e7a44c478afc66f023d
+  compatibleLabels3 ::
+    [[GHC.Types.Char]]
+    -> Data.Set.Base.Set (GHC.Base.String, a) -> [[GHC.Types.Char]]
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,1*U><S,1*U> -}
+cb9f00d349fe2ebac79b677dee80c6e9
+  delete ::
+    GHC.Base.String -> Relvar.LSet.LSet a -> Relvar.LSet.LSet a
+  {- Arity: 2, Strictness: <L,U><S,1*U>,
+     Unfolding: (\ @ a
+                   lbl :: GHC.Base.String
+                   lset :: Relvar.LSet.LSet a ->
+                 Data.Set.Base.filter
+                   @ (GHC.Base.String, a)
+                   (\ x :: (GHC.Base.String, a) ->
+                    case GHC.Classes.$fEq[]_$s$c==1
+                           (Data.Tuple.fst @ GHC.Base.String @ a x)
+                           lbl of wild {
+                      GHC.Types.False -> GHC.Types.True
+                      GHC.Types.True -> GHC.Types.False })
+                   lset) -}
+8d6490f98798e33fbce0d415234df637
+  empty :: Relvar.LSet.LSet a
+  {- HasNoCafRefs,
+     Unfolding: InlineRule (0, True, True)
+                (\ @ a -> Data.Set.Base.Tip @ (GHC.Base.String, a)) -}
+503d3e0aec43b29d350dfb45229d708d
+  extract ::
+    (GHC.Classes.Ord a, GHC.Show.Show a) =>
+    GHC.Types.Bool -> Relvar.LSet.LSet a -> [GHC.Base.String] -> [a]
+  {- Arity: 5, Strictness: <L,A><L,A><S,1*U><L,U><S,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (5, True, True)
+                (\ @ a
+                   w :: GHC.Classes.Ord a
+                   w1 :: GHC.Show.Show a
+                   w2 :: GHC.Types.Bool
+                   w3 :: Relvar.LSet.LSet a
+                   w4 :: [GHC.Base.String] ->
+                 Relvar.LSet.$wextract @ a w2 w3 w4) -}
+ebe67cc0a15e82f886a8e66f869ff94a
+  extract2 ::
+    GHC.Classes.Ord a =>
+    [GHC.Base.String]
+    -> [(GHC.Base.String, a)] -> [(GHC.Base.String, a)]
+  {- Arity: 3, Strictness: <L,A><S,U><L,1*U>, Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, True)
+                (\ @ a
+                   w :: GHC.Classes.Ord a
+                   w1 :: [GHC.Base.String]
+                   w2 :: [(GHC.Base.String, a)] ->
+                 Relvar.LSet.$wextract2 @ a w1 w2) -}
+4e04c9d0edc0d98bbbf6acf860e2de77
+  extractWithLabels ::
+    (GHC.Classes.Ord a, GHC.Show.Show a) =>
+    GHC.Types.Bool
+    -> [GHC.Base.String]
+    -> Relvar.LSet.LSet a
+    -> [(GHC.Base.String, a)]
+  {- Arity: 5, Strictness: <L,A><L,A><L,1*U><S,U><L,U>,
+     Unfolding: InlineRule (5, True, False)
+                (\ @ a
+                   $dOrd :: GHC.Classes.Ord a
+                   $dShow :: GHC.Show.Show a
+                   chckDup :: GHC.Types.Bool
+                   lbls :: [GHC.Base.String]
+                   lset :: Relvar.LSet.LSet a ->
+                 GHC.Base.build
+                   @ ([GHC.Types.Char], a)
+                   (\ @ b1
+                      c :: ([GHC.Types.Char], a) -> b1 -> b1[OneShot]
+                      n :: b1[OneShot] ->
+                    GHC.List.foldr2
+                      @ [GHC.Types.Char]
+                      @ a
+                      @ b1
+                      (GHC.List.zipFB @ [GHC.Types.Char] @ a @ b1 @ b1 c)
+                      n
+                      lbls
+                      (Relvar.LSet.extract @ a $dOrd $dShow chckDup lset lbls))) -}
+90f88d4ac1437cd996580b1fbb0edb30
+  fromList ::
+    GHC.Classes.Ord a => [GHC.Base.String] -> [a] -> Relvar.LSet.LSet a
+  {- Arity: 3,
+     Strictness: <L,U(1*U(C(C1(U)),A),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),A,A)><S,1*U><L,1*U>,
+     Unfolding: (\ @ a
+                   $dOrd :: GHC.Classes.Ord a
+                   lbls :: [GHC.Base.String]
+                   es :: [a] ->
+                 let {
+                   xs :: [(GHC.Base.String, a)]
+                   = GHC.List.zip @ [GHC.Types.Char] @ a lbls es
+                 } in
+                 case GHC.List.elem
+                        @ [GHC.Types.Char]
+                        GHC.Classes.$fEq[]_$s$fEq[]1
+                        (GHC.Types.[] @ GHC.Types.Char)
+                        (GHC.Base.map
+                           @ ([GHC.Types.Char], a)
+                           @ [GHC.Types.Char]
+                           (Data.Tuple.fst @ [GHC.Types.Char] @ a)
+                           xs) of wild {
+                   GHC.Types.False
+                   -> case Relvar.LSet.hasDups
+                             (GHC.Base.map
+                                @ (GHC.Base.String, a)
+                                @ [GHC.Types.Char]
+                                (Data.Tuple.fst @ GHC.Base.String @ a)
+                                xs) of wild1 {
+                        GHC.Types.False
+                        -> Data.Set.Base.fromList
+                             @ (GHC.Base.String, a)
+                             (GHC.Classes.$fOrd(,)
+                                @ [GHC.Types.Char]
+                                @ a
+                                (GHC.Classes.$fEq(,)
+                                   @ [GHC.Types.Char]
+                                   @ a
+                                   GHC.Classes.$fEq[]_$s$fEq[]1
+                                   (GHC.Classes.$p1Ord @ a $dOrd))
+                                GHC.Classes.$fOrd[]_$s$fOrd[]1
+                                $dOrd)
+                             xs
+                        GHC.Types.True -> Relvar.LSet.$fLabelOpSet2 @ a }
+                   GHC.Types.True -> Relvar.LSet.fromList1 @ a }) -}
+72fb10a5fb2281420ef3ba96202fb84a
+  fromList1 :: Relvar.LSet.LSet a
+  {- Strictness: b -}
+157ed1e8a15eb60e6ca7926fd78ac91e
+  hasDups :: [GHC.Base.String] -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,U>,
+     Unfolding: (\ xs :: [GHC.Base.String] ->
+                 case GHC.List.$wlenAcc @ [GHC.Types.Char] xs 0 of ww2 { DEFAULT ->
+                 case GHC.List.$wlenAcc
+                        @ [GHC.Types.Char]
+                        (Data.OldList.nubBy @ GHC.Base.String GHC.Base.eqString xs)
+                        0 of ww1 { DEFAULT ->
+                 GHC.Prim.tagToEnum# @ GHC.Types.Bool (GHC.Prim.># ww2 ww1) } }) -}
+87f11dab02b4cbfb40d4da4a5c94e2e8
+  insert ::
+    GHC.Classes.Ord a =>
+    GHC.Base.String -> a -> Relvar.LSet.LSet a -> Relvar.LSet.LSet a
+  {- Arity: 1,
+     Strictness: <L,U(1*U,C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),A,A)>,
+     Unfolding: (\ @ a $dOrd :: GHC.Classes.Ord a ->
+                 let {
+                   $dEq :: GHC.Classes.Eq a = GHC.Classes.$p1Ord @ a $dOrd
+                 } in
+                 let {
+                   $dEq1 :: GHC.Classes.Eq ([GHC.Types.Char], a)
+                   = GHC.Classes.$fEq(,)
+                       @ [GHC.Types.Char]
+                       @ a
+                       GHC.Classes.$fEq[]_$s$fEq[]1
+                       $dEq
+                 } in
+                 let {
+                   $dOrd1 :: GHC.Classes.Ord (GHC.Base.String, a)
+                   = GHC.Classes.$fOrd(,)
+                       @ [GHC.Types.Char]
+                       @ a
+                       $dEq1
+                       GHC.Classes.$fOrd[]_$s$fOrd[]1
+                       $dOrd
+                 } in
+                 \ lbl :: GHC.Base.String val :: a lset :: Relvar.LSet.LSet a ->
+                 Data.Set.Base.insert
+                   @ (GHC.Base.String, a)
+                   $dOrd1
+                   (lbl, val)
+                   lset) -}
+fd7a5bb0dcea278942f76b14d96ac1eb
+  project ::
+    Relvar.LSet.LSet a -> [GHC.Base.String] -> Relvar.LSet.LSet a
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ a lset :: Relvar.LSet.LSet a lbls :: [GHC.Base.String] ->
+                 Data.Set.Base.filter
+                   @ (GHC.Base.String, a)
+                   (\ x :: (GHC.Base.String, a) ->
+                    GHC.List.elem
+                      @ GHC.Base.String
+                      GHC.Classes.$fEq[]_$s$fEq[]1
+                      (case x of wild { (,) x1 ds1 -> x1 })
+                      lbls)
+                   lset) -}
+4d20fe5bd46d8aff342f24dda32cd53c
+  projectaway ::
+    (GHC.Classes.Ord a, GHC.Show.Show a) =>
+    Relvar.LSet.LSet a -> [GHC.Base.String] -> Relvar.LSet.LSet a
+  {- Arity: 4, Strictness: <L,A><L,A><S,U><L,U>, Inline: INLINE[0],
+     Unfolding: InlineRule (4, True, True)
+                (\ @ a
+                   w :: GHC.Classes.Ord a
+                   w1 :: GHC.Show.Show a
+                   w2 :: Relvar.LSet.LSet a
+                   w3 :: [GHC.Base.String] ->
+                 Relvar.LSet.$wprojectaway @ a w2 w3) -}
+0106dce1ea14ebed040d43503d977b2b
+  singleton :: GHC.Base.String -> a -> Relvar.LSet.LSet a
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,U><L,U>m1,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ a lbl :: GHC.Base.String val :: a ->
+                 Data.Set.Base.Bin
+                   @ (GHC.Base.String, a)
+                   1
+                   (lbl, val)
+                   (Data.Set.Base.Tip @ (GHC.Base.String, a))
+                   (Data.Set.Base.Tip @ (GHC.Base.String, a))) -}
+7c15979a10a1c65c330677baa81ca6b1
+  toList :: Relvar.LSet.LSet a -> [(GHC.Base.String, a)]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (0, True, True)
+                (\ @ a -> Data.Set.Base.toAscList @ (GHC.Base.String, a)) -}
+c7220d7c82dd5b0bec82946b99ef8654
+  union ::
+    GHC.Classes.Ord a =>
+    Relvar.LSet.LSet a -> Relvar.LSet.LSet a -> Relvar.LSet.LSet a
+  {- Arity: 1,
+     Strictness: <L,U(1*U,C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),A,A)>,
+     Unfolding: (\ @ a $dOrd :: GHC.Classes.Ord a ->
+                 let {
+                   $dEq :: GHC.Classes.Eq a = GHC.Classes.$p1Ord @ a $dOrd
+                 } in
+                 let {
+                   $dEq1 :: GHC.Classes.Eq ([GHC.Types.Char], a)
+                   = GHC.Classes.$fEq(,)
+                       @ [GHC.Types.Char]
+                       @ a
+                       GHC.Classes.$fEq[]_$s$fEq[]1
+                       $dEq
+                 } in
+                 let {
+                   $dOrd1 :: GHC.Classes.Ord (GHC.Base.String, a)
+                   = GHC.Classes.$fOrd(,)
+                       @ [GHC.Types.Char]
+                       @ a
+                       $dEq1
+                       GHC.Classes.$fOrd[]_$s$fOrd[]1
+                       $dOrd
+                 } in
+                 \ lset1 :: Relvar.LSet.LSet a lset2 :: Relvar.LSet.LSet a ->
+                 case lset1 of wild {
+                   Data.Set.Base.Bin ipv ipv1 ipv2 ipv3
+                   -> case lset2 of wild1 {
+                        Data.Set.Base.Bin ipv4 ipv5 ipv6 ipv7
+                        -> Data.Set.Base.union_$shedgeUnion
+                             @ (GHC.Base.String, a)
+                             $dOrd1
+                             (Data.Set.Base.NothingS @ (GHC.Base.String, a))
+                             (Data.Set.Base.NothingS @ (GHC.Base.String, a))
+                             ipv
+                             ipv1
+                             ipv2
+                             ipv3
+                             ipv4
+                             ipv5
+                             ipv6
+                             ipv7
+                        Data.Set.Base.Tip -> wild }
+                   Data.Set.Base.Tip -> lset2 }) -}
+5a9b121435d07343f80ed3a2b0ce716a
+  values :: Relvar.LSet.LSet a -> [a]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: (\ @ a xs :: Relvar.LSet.LSet a ->
+                 Relvar.LSet.values1 @ a (GHC.Types.[] @ a) xs) -}
+1f5478c32cb5c2fbb5c4a9a311e00dd7
+  values1 :: [a] -> Data.Set.Base.Set (GHC.Base.String, a) -> [a]
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,1*U><S,1*U> -}
+instance Relvar.LSet.LabelOp [Data.Set.Base.Set]
+  = Relvar.LSet.$fLabelOpSet
+instance Relvar.LSet.LabelOp [[]] = Relvar.LSet.$fLabelOp[]
+"SPEC/Relvar.LSet findWithDefault _ @ String" [ALWAYS] forall @ a
+                                                              $dOrd :: GHC.Classes.Ord
+                                                                         GHC.Base.String
+  Data.Map.Strict.findWithDefault @ a @ [GHC.Types.Char] $dOrd
+  = Relvar.LSet.$fLabelOpSet_$sfindWithDefault @ a
+"SPEC/Relvar.LSet fromList @ String _" [ALWAYS] forall @ a
+                                                       $dOrd :: GHC.Classes.Ord GHC.Base.String
+  Data.Map.Strict.fromList @ [GHC.Types.Char] @ a $dOrd
+  = Relvar.LSet.$fLabelOpSet_$sfromList @ a
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+
