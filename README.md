@@ -106,7 +106,7 @@ Use `show` to print a relation to stdout without formatting:
 *> myrel
 Relvar {attributes = fromList [("bar",Double),("foo",[Char])], rdata = fromList [fromList [("bar",2.718281),("foo","xyz")],fromList [("bar",3.145159),("foo","abc")]]}
 ```
-... or use the [view functions](https://janthelme.github.io/relation-tool/relation-tool-0.1.0.0/Relvar-Pretty.html#g:2) FIXMEHL to give it in a tabular format:
+... or use the [view functions](https://janthelme.github.io/relation-tool/relation-tool-0.1.0.0/Relvar-Pretty.html#g:2) to give it in a tabular format:
 ```sh
 *> viewAll myrel
 bar       |foo
@@ -128,7 +128,7 @@ xyz       |2.718281
 ----------+----------
 abc       |3.145159
 ```
-(here we just reordered the columns. Check-out the [`table`](https://janthelme.github.io/relation-tool/relation-tool-0.1.0.0/Relvar.html#g:8) FIXMEHL function for more options).
+(here we just reordered the columns. Check-out the [`table`](https://janthelme.github.io/relation-tool/relation-tool-0.1.0.0/Relvar.html#g:8) function for more options).
 ### Relation operators
 Given the following relation:
 ```sh
@@ -192,7 +192,7 @@ kangaroo  |mammals
 ----------+----------
 lion      |mammals   
 ```
-(check the explanation on `liftBoolFun` [here](https://janthelme.github.io/relation-tool/relation-tool-0.1.0.0/Algebra-Function.html) FIXME).
+(check the explanation on `liftBoolFun` [here](https://janthelme.github.io/relation-tool/relation-tool-0.1.0.0/Algebra-Function.html) -FIXME).
 
 Given the additional relation:
 ```sh
@@ -276,7 +276,7 @@ dolphin   |mammals   |water
 ----------+----------+----------
 hippo     |mammals   |water     
 ```
-(check the explanation on `liftBoolFun2` [here](https://janthelme.github.io/relation-tool/relation-tool-0.1.0.0/Algebra-Function.html) FIXMEHL).
+(check the explanation on `liftBoolFun2` [here](https://janthelme.github.io/relation-tool/relation-tool-0.1.0.0/Algebra-Function.html) -FIXME).
 
 Finally if we join a third relation:
 ```sh
@@ -333,7 +333,7 @@ reptiles  |land      |1
 reptiles  |water     |2         
 ```
 
-Check [Basics.hs]() FIXMEHL program and call `main` to run the examples above. And read the Haddock documentation for [all other operators](https://janthelme.github.io/relation-tool/relation-tool-0.1.0.0/Algebra.html) FIXMEHL. 
+Check [Basics.hs]() FIXMEHL program and call `main` to run the examples above. And read the Haddock documentation for [all other operators](https://janthelme.github.io/relation-tool/relation-tool-0.1.0.0/Algebra.html). 
 
 ## CSV imports
 
