@@ -16,7 +16,7 @@ There are 3 executable examples available: basics-exe, csv-exe and jcdate-exe.
 
 
 ## Documentation
-Check the [Haddock documentation](./doc/relation-tool-0.1.0.0/index.html). FIXMEHL
+Check the [Haddock documentation](https://janthelme.github.io/relation-tool/).
 
 ## Basics
 For the proper definition of most concepts, see C.J. Date, "*An Introduction to Database Systems*" Eighth Edition, chapter 7 ('*Relational Algebra*').
@@ -86,7 +86,7 @@ myrel = relvar ["foo", "bar"] [typeOf (undefined::String), typeOf (undefined::Do
         ,[S "xyz", D 2.718281]
         ]
 ```
-Since Haskell does not provide `TypeRep` literals, and because typing `typeOf (undefined::String)` is tedious, some predefined `TypeRep` "constants" are available (FIXME: hyperlink to Haddock). Relations can then be created that way:
+Since Haskell does not provide `TypeRep` literals, and because typing `typeOf (undefined::String)` is tedious, some predefined `TypeRep` "constants" are [available](https://janthelme.github.io/relation-tool/relation-tool-0.1.0.0/Relvar.html#g:10) (FIXME: hyperlink to Haddock). Relations can then be created that way:
 ```haskell
 myrel = relvar ["foo", "bar"] [tyS, tyD]
         [[S "abc", D 3.145159]
@@ -128,7 +128,7 @@ xyz       |2.718281
 ----------+----------
 abc       |3.145159
 ```
-(here we just reordered the columns. Check-out the `table` FIXMEHL function for more options).
+(here we just reordered the columns. Check-out the [`table`](https://janthelme.github.io/relation-tool/relation-tool-0.1.0.0/Relvar.html#g:8) FIXMEHL function for more options).
 ### Relation operators
 Given the following relation:
 ```sh
@@ -333,7 +333,7 @@ reptiles  |land      |1
 reptiles  |water     |2         
 ```
 
-Check [Basics.hs]() FIXMEHL program and call `main` to run the examples above. And read the Haddock documentation for all other operators FIXMEHL. 
+Check [Basics.hs]() FIXMEHL program and call `main` to run the examples above. And read the Haddock documentation for [all other operators](https://janthelme.github.io/relation-tool/relation-tool-0.1.0.0/Algebra.html) FIXMEHL. 
 
 ## CSV imports
 

@@ -22,7 +22,7 @@ module Relvar.Pretty(
     -- * Types
     Params (..)
     , Alignment(..)    
-    -- * Construction
+    -- * View Functions
     , render'
     , Relvar.Pretty.render
     , view'
