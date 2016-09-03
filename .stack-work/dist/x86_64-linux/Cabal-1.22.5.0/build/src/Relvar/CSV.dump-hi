@@ -1,0 +1,290 @@
+
+==================== FINAL INTERFACE ====================
+2016-09-03 14:34:33.930625 UTC
+
+interface relat_8Cyn3M6UKgN11sASBif9n4:Relvar.CSV 7103
+  interface hash: 01b4633650c0a1dddd024b1fe9bb8682
+  ABI hash: 9ef815406275167ddc172649201f11c0
+  export-list hash: 619b2b9b196713ef4e6d3f826296e37c
+  orphan hash: a018058cbffd4d6a294b0e1d9cae0ae7
+  flag hash: e3ff1689d21251fa452ca77ee1b63804
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Relvar.CSV.fromCSV
+  Relvar.CSV.toRelation
+  Data.CSV.Conduit.Types.CSVSettings{Data.CSV.Conduit.Types.CSVSettings Data.CSV.Conduit.Types.csvQuoteChar Data.CSV.Conduit.Types.csvSep}
+module dependencies: Relvar Relvar.LSet
+package dependencies: array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA
+                      attoparsec-0.13.0.2@attop_F2JR8EcnzjH8eSBi5YocsE base-4.8.2.0
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      blaze-builder-0.4.0.2@blaze_5LQurmvTy7l9rPlWgPlNE4
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      conduit-1.2.7@condu_6OSrnRI6RqIGBv7ZPG9IV6
+                      conduit-extra-1.1.13.2@condu_ErVEtE0OOPvEOsJa6HCflV
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      csv-conduit-0.6.6@csvco_I29qc2DQAP4D0zYliC1Uwd
+                      data-default-instances-base-0.1.0@datad_2INJRDvgZ4jDHH2QJIQkcK
+                      data-default-0.5.3@datad_91CrM49egJd0Gm9c4dN01A
+                      data-default-instances-dlist-0.0.1@datad_IV2dTGx3Pj09NowR0FWGzk
+                      data-default-instances-containers-0.0.1@datad_IvTKAI579b047LLJfQOYbY
+                      data-default-class-0.0.1@datad_K91y8NcZUJI9yaBI61rgdD
+                      data-default-instances-old-locale-0.0.1@datad_LQTewb1b5hK22W4h2rIWVQ
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      directory-1.2.2.0@direc_0hFG6ZxK1nk4zsyOqbNHfm
+                      dlist-0.7.1.2@dlist_AO7XAasbAeyL0XLKeq1Aui
+                      exceptions-0.8.3@excep_BEih2K3eMGTE4cg5iulra8
+                      filepath-1.4.0.0@filep_Ey7a1in9roBAE8bUFJ5R9m ghc-prim-0.4.0.0
+                      hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I integer-gmp-1.0.0.0
+                      lifted-base-0.2.3.8@lifte_27kQ9DytVyu5Pw2So1Igy3
+                      mmorph-1.0.6@mmorp_42KUkOfzC6q3qCtAMiSHam
+                      monad-control-1.0.1.0@monad_7Tqv3C2ASZP4J7swGaIkqS
+                      mtl-2.2.1@mtl_Aue4leSeVkpKLsfHIV51E8
+                      old-locale-1.0.0.7@oldlo_7h2Gx6mVPJ5Gheca8j9Mpe
+                      primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3
+                      resourcet-1.1.7.5@resou_165wgeXO1n8BEqynSK393U
+                      scientific-0.3.4.9@scien_1WVNjGUftkQ9QzH4DOM2n1
+                      stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD
+                      streaming-commons-0.1.15.5@strea_2a9C3L0IVZc79BZaLNwyzG
+                      template-haskell-2.10.0.0 text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne
+                      time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn
+                      transformers-base-0.4.4@trans_74WedXVmfaHHDJItmBRTVp
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+                      unix-2.7.1.0@unix_KZL8h98IqDM57kQSPo1mKx
+                      vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln
+orphans: attoparsec-0.13.0.2@attop_F2JR8EcnzjH8eSBi5YocsE:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.0.2@attop_F2JR8EcnzjH8eSBi5YocsE:Data.Attoparsec.Text.Internal
+         base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         data-default-instances-base-0.1.0@datad_2INJRDvgZ4jDHH2QJIQkcK:Data.Default.Instances.Base
+         data-default-instances-dlist-0.0.1@datad_IV2dTGx3Pj09NowR0FWGzk:Data.Default.Instances.DList
+         data-default-instances-containers-0.0.1@datad_IvTKAI579b047LLJfQOYbY:Data.Default.Instances.Containers
+         data-default-instances-old-locale-0.0.1@datad_LQTewb1b5hK22W4h2rIWVQ:Data.Default.Instances.OldLocale
+         hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I:Data.Hashable.Generic
+         stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD:Control.Monad.STM
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Format.Parse
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.LocalTime.LocalTime
+         transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF:Control.Monad.Trans.Error
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Fusion.Bundle
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.0.2@attop_F2JR8EcnzjH8eSBi5YocsE:Data.Attoparsec.Internal.Types
+                         base-4.8.2.0:Control.Applicative base-4.8.2.0:Data.Either
+                         base-4.8.2.0:Data.Functor.Identity base-4.8.2.0:Data.Monoid
+                         base-4.8.2.0:Data.Type.Equality base-4.8.2.0:Data.Void
+                         base-4.8.2.0:GHC.Exts base-4.8.2.0:GHC.Generics
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         dlist-0.7.1.2@dlist_AO7XAasbAeyL0XLKeq1Aui:Data.DList
+                         monad-control-1.0.1.0@monad_7Tqv3C2ASZP4J7swGaIkqS:Control.Monad.Trans.Control
+                         primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3:Control.Monad.Primitive
+                         resourcet-1.1.7.5@resou_165wgeXO1n8BEqynSK393U:Control.Monad.Trans.Resource.Internal
+                         template-haskell-2.10.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Primitive
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed.Base
+import  -/  base-4.8.2.0:Data.Typeable c3fcb0780ec05399195ad3277b18d294
+import  -/  base-4.8.2.0:Data.Typeable.Internal 76b09e88499fa4ff7869a34e89976afb
+import  -/  base-4.8.2.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.2.0:GHC.List 0c736920522bbd14b770342776012ab6
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  base-4.8.2.0:Text.Read ef0ef92fb7358ae94bab089940adfd2a
+import  -/  containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base 642e37808d03e24efbe8e8ff1336f343
+import  -/  containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Strict 47720a1b98e2fcc2f040f344c61b35f5
+import  -/  csv-conduit-0.6.6@csvco_I29qc2DQAP4D0zYliC1Uwd:Data.CSV.Conduit ee97dd563cd59da6efda098fd7029705
+import  -/  csv-conduit-0.6.6@csvco_I29qc2DQAP4D0zYliC1Uwd:Data.CSV.Conduit.Types 01ffb500796e851cf2f7873a961359ae
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+import  -/  Relvar c43138de2e31a037b92dfb3f1ff8bcdd
+  exports: c77214d0a1ae15d1167f75a2836fdb82
+  B 09884aca53c81c9a8a675173b9059601
+  D 94b592089becf58c64fedb3bba3769c6
+  Elem 739ead08fede687ca65196edf4c545f4
+  I 2850aa1e6707f6b46413d053b353592b
+  J 1d7f0044079b33c343c066dd1651f2ac
+  Nil bbf6812b23170f2f9f6afe07e0fda3ed
+  Relvar 739ead08fede687ca65196edf4c545f4
+  S 959b55bc7d4247fe7a618e7b4e801360
+  T a2cd3d567b05a3881634e091cb03854c
+  relvar 5a732440cdeabb63e5f290744040033a
+  tyB 83008f24ed76ab8b5ae16dba9ef5a2c3
+  tyD 5032d4846f251b011792ed630ec184de
+  tyI da3f0af4463d5b782303a9e18aea8407
+  tyJ c32df67fdfd5a22d340c035e8a045936
+  tyS 208f4920435b48fffd602528e06bd0c7
+  tyT 7d33d8361830b6d3e1087241d3408010
+  tyZ 23056910a489f72571bdc353b23d7545
+import  -/  text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text 677c532e2dd56476a11a0a8a53880ce7
+import  -/  text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show 081cc243e944015e37c793c3b0ebfefd
+import  -/  vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector 512d7f6fa3b1d8745a1f7b6f5b8fd295
+b96e0c443f766ff5fc6a46c6457b54ff
+  $sfromList ::
+    [(Data.Text.Internal.Text, a)]
+    -> Data.Map.Base.Map Data.Text.Internal.Text a
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ @ a ds :: [(Data.Text.Internal.Text, a)] ->
+                 case ds of wild {
+                   [] -> Data.Map.Base.Tip @ Data.Text.Internal.Text @ a
+                   : ds1 ds2
+                   -> case ds1 of wild1 { (,) kx x ->
+                      case ds2 of wild2 {
+                        []
+                        -> case x of x1 { DEFAULT ->
+                           case kx of dt { Data.Text.Internal.Text ipv ipv1 ipv2 ->
+                           Data.Map.Base.Bin
+                             @ Data.Text.Internal.Text
+                             @ a
+                             1
+                             dt
+                             x1
+                             (Data.Map.Base.Tip @ Data.Text.Internal.Text @ a)
+                             (Data.Map.Base.Tip @ Data.Text.Internal.Text @ a) } }
+                        : ipv ipv1
+                        -> case ipv of wild3 { (,) ky ds3 ->
+                           case kx of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                           case ky of ww4 { Data.Text.Internal.Text ww5 ww6 ww7 ->
+                           case Data.Text.$w$ccompare ww1 ww2 ww3 ww5 ww6 ww7 of wild4 {
+                             DEFAULT
+                             -> case x of x0 { DEFAULT ->
+                                Relvar.CSV.$sfromList1
+                                  @ a
+                                  (Data.Map.Base.Bin
+                                     @ Data.Text.Internal.Text
+                                     @ a
+                                     1
+                                     ww
+                                     x0
+                                     (Data.Map.Base.Tip @ Data.Text.Internal.Text @ a)
+                                     (Data.Map.Base.Tip @ Data.Text.Internal.Text @ a))
+                                  wild2 }
+                             GHC.Types.LT
+                             -> case x of x0 { DEFAULT ->
+                                Relvar.CSV.$wpoly_go4
+                                  @ a
+                                  1
+                                  (Data.Map.Base.Bin
+                                     @ Data.Text.Internal.Text
+                                     @ a
+                                     1
+                                     ww
+                                     x0
+                                     (Data.Map.Base.Tip @ Data.Text.Internal.Text @ a)
+                                     (Data.Map.Base.Tip @ Data.Text.Internal.Text @ a))
+                                  wild2 } } } } } } } }) -}
+a20bcf4955ac268089d0e7dfa32ee8e1
+  $sfromList1 ::
+    Data.Map.Base.Map Data.Text.Internal.Text a1
+    -> [(Data.Text.Internal.Text, a1)]
+    -> Data.Map.Base.Map Data.Text.Internal.Text a1
+  {- Arity: 2, Strictness: <S,1*U><S,1*U> -}
+d6391ba1ca148467e15705064d6bc786
+  $w$sfindWithDefault ::
+    a
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Data.Map.Base.Map Data.Text.Internal.Text a
+    -> a
+  {- Arity: 5, HasNoCafRefs, Strictness: <L,U><L,U><L,U><L,U><S,1*U>,
+     Inline: [0],
+     Unfolding: (\ @ a
+                   w :: a
+                   ww :: GHC.Prim.ByteArray#
+                   ww1 :: GHC.Prim.Int#
+                   ww2 :: GHC.Prim.Int#
+                   w1 :: Data.Map.Base.Map Data.Text.Internal.Text a ->
+                 letrec {
+                   go4 :: Data.Map.Base.Map Data.Text.Internal.Text a -> a
+                     {- Arity: 1, Strictness: <S,1*U> -}
+                   = \ ds :: Data.Map.Base.Map Data.Text.Internal.Text a ->
+                     case ds of wild {
+                       Data.Map.Base.Bin dt kx x l r
+                       -> case kx of ww4 { Data.Text.Internal.Text ww5 ww6 ww7 ->
+                          case Data.Text.$w$ccompare ww ww1 ww2 ww5 ww6 ww7 of wild1 {
+                            GHC.Types.LT -> go4 l GHC.Types.EQ -> x GHC.Types.GT -> go4 r } }
+                       Data.Map.Base.Tip -> w }
+                 } in
+                 go4 w1) -}
+54c15beb30cfb3331914f07796e0cbd3
+  $w$sfromCSV ::
+    Data.Map.Base.Map
+      Data.Text.Internal.Text Data.Typeable.Internal.TypeRep
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> GHC.Base.String
+    -> Relvar.Elem
+  {- Arity: 5, Strictness: <S,1*U><L,U><L,U><L,U><L,U>,
+     Inline: [0] -}
+68c83f0706b3e19ec4215274592721a2
+  $w$sgo4 ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> a1
+    -> Data.Map.Base.Map Data.Text.Internal.Text a1
+    -> Data.Map.Base.Map Data.Text.Internal.Text a1
+  {- Arity: 5, Strictness: <L,U><L,U><L,U><S,1*U><S,1*U>,
+     Inline: [0] -}
+09b03c73143d45544f13d12b73019021
+  $wpoly_go4 ::
+    GHC.Prim.Int#
+    -> Data.Map.Base.Map Data.Text.Internal.Text a
+    -> [(Data.Text.Internal.Text, a)]
+    -> Data.Map.Base.Map Data.Text.Internal.Text a
+  {- Arity: 3, Strictness: <L,U><S,1*U><S,1*U>, Inline: [0] -}
+05c2648e641e838fbd5c4a6cdb3dcafe
+  fromCSV ::
+    GHC.Classes.Ord a =>
+    Data.Map.Base.Map a Data.Typeable.Internal.TypeRep
+    -> a -> GHC.Base.String -> Relvar.Elem
+  {- Arity: 4,
+     Strictness: <L,U(A,C(C1(U)),A,A,A,A,A,A)><S,1*U><S,1*U><L,U> -}
+2189742c1127d5c8e669093d272542da
+  toRelation ::
+    GHC.Base.String
+    -> GHC.Types.Char
+    -> [GHC.Base.String]
+    -> [Data.Typeable.Internal.TypeRep]
+    -> GHC.Types.IO Relvar.Relvar
+  {- Arity: 5, Strictness: <L,U><L,1*U(U)><L,U><L,U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Relvar.CSV.toRelation1
+                  `cast`
+                (<GHC.Base.String>_R
+                 ->_R <GHC.Types.Char>_R
+                 ->_R <[GHC.Base.String]>_R
+                 ->_R <[Data.Typeable.Internal.TypeRep]>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <Relvar.Relvar>_R)) -}
+1eed37427fabe34dbf3408ac767b28e7
+  toRelation1 ::
+    GHC.Base.String
+    -> GHC.Types.Char
+    -> [GHC.Base.String]
+    -> [Data.Typeable.Internal.TypeRep]
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, Relvar.Relvar #)
+  {- Arity: 5, Strictness: <L,U><L,1*U(U)><L,U><L,U><L,U> -}
+"SPEC/Relvar.CSV fromList @ Text _" [ALWAYS] forall @ a
+                                                    $dOrd :: GHC.Classes.Ord Data.Text.Internal.Text
+  Data.Map.Strict.fromList @ Data.Text.Internal.Text @ a $dOrd
+  = Relvar.CSV.$sfromList @ a
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+
