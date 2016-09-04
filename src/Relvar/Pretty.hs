@@ -72,9 +72,9 @@ col_width_min = 10, border_top = False, border_bot = False, border_lft = False, 
 @
 -}
 defParams = Params { col_width_min = 10
-                  , border_top = False, border_bot = False, border_lft = False, border_rgt = False
-                  , col_align = left
-                  }
+                   , border_top = False, border_bot = False, border_lft = False, border_rgt = False
+                   , col_align = left
+                   }
 -- CHECK: remove this function                  
 -- toElems :: Row -> [Elem] -- = Set.Set (String, Elem)
 -- toElems rv = map snd $ Set.toList rv

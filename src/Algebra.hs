@@ -162,7 +162,7 @@ extend :: Relvar -> ([Elem] -> Elem) -> [String] -> String -> Relvar -- CHECK: c
 extend r f inlbls outlbl = Relvar {attributes = LSet.insert outlbl outty $ attributes r, rdata = Set.map (extendRowWith inlbls outlbl f) $ rdata r}
     where args0 = LSet.extract True (Set.elemAt 0 $ rdata r) inlbls -- arguments corresponding to the 1st row
           outty = typeRep $ f args0                             -- this only works for basic types and relations. CHECK: can we do better?              
-
+-- FIXME: bug when the lbls do not contain a valid col names. (in fact when project is on invalid column... FIX project)
 -- | @summarize r per ops inlbls outlbls@ computes ops over inlbls columns into outlbls column.
 summarize :: Relvar -> Relvar -> [OpElem] -> [String] -> [String] -> Relvar
 summarize r per ops lbls lbls' = foldl1 union rs

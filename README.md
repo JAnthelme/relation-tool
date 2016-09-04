@@ -332,7 +332,7 @@ reptiles  |land      |1
 reptiles  |water     |2         
 ```
 
-Check [Basics.hs]() FIXMEHL program and call `main` to run the examples above. And read the Haddock documentation for [all other operators](https://janthelme.github.io/relation-tool/relation-tool-0.1.0.0/Algebra.html). 
+Check [Basics.hs](https://github.com/JAnthelme/relation-tool-examples/blob/master/app/Basics.hs) and call `main` to run the examples above. Read the Haddock documentation for [all other operators](https://janthelme.github.io/relation-tool/relation-tool-0.1.0.0/Algebra.html). 
 
 ## CSV imports
 
@@ -346,14 +346,13 @@ main = do
     viewAll r
 ```
 
-
-See CSV.hs for more details FIXMEHL.
+See [CSV.hs](https://github.com/JAnthelme/relation-tool-examples/blob/master/app/CSV.hs) for more details.
 
 ## Other examples
-See C.J Date's book examples here FIXMEHLs.
+See C.J Date's book examples [here](https://github.com/JAnthelme/relation-tool-examples/blob/master/app/CJDate.hs).
 
 ## Test
-See Spec.hs. With Stack, run `stack build --test` from the command shell.
+See [Spec.hs](https://github.com/JAnthelme/relation-tool/blob/master/test/Spec.hs). With Stack, run `stack build --test` from the command shell.
 
 ## Built With
 

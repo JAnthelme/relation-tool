@@ -417,3 +417,7 @@ resizeBoxAligned r c ha va = takePA va (blanks c) r . map (takePA' ha ' ' c)
 -- | A convenience function for rendering a box to stdout.
 printBox :: Box -> IO ()
 printBox = T.putStr  . render
+
+
+-- side by side - quick hack
+
