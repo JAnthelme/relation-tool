@@ -11,7 +11,7 @@ git clone https://github.com/janthelme/relation-tool.git
 cd relation-tool
 stack build
 ```
-Executable examples are available in the [relation-toolbox-examples repo](). You can either read their [source code](https://github.com/JAnthelme/relation-tool-examples/tree/master/app) or follow the README to run them locally.
+Executable examples are available in the [relation-toolbox-examples repo](https://github.com/JAnthelme/relation-tool-examples). You can either read their [source code](https://github.com/JAnthelme/relation-tool-examples/tree/master/app) or follow the README to run them locally.
 
 
 ## Documentation
