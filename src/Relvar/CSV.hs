@@ -33,6 +33,9 @@ import qualified Data.Text (Text)
 import Data.Typeable (TypeRep)
 import qualified Data.Map.Strict as Map (Map, findWithDefault, fromList)
 
+import Data.Time (Day, fromGregorian)
+import Data.List.Split (splitOn)
+
 -- Given an appropriate TypeRep, convert a CSV string to Elem.
 fromCSV' :: TypeRep -> String -> Elem
 fromCSV' t s
@@ -43,6 +46,9 @@ fromCSV' t s
     | t == tyJ = J (read s)
     | t == tyD = D (read s)
 -- Add DD and DT?   
+-- change signature or code so that it takes several date formats
+-- currently it only works for yyyy-mm-dd format
+    | t == tyDD = DD (toDate "yyyy-mm-dd" s)
     | t == tyZ  = Nil
     | otherwise = Nil
     {- 
@@ -68,3 +74,12 @@ toRelation fp d lbls tys = do
     let rws = V.toList $ V.map (zipWith toEl hd) vs'   
 
     return $ relvar lbls tys rws
+    
+    
+    
+-- conversion from string to Day
+toDate :: String -> String -> Day
+toDate format sdate = case format of
+    "yyyy-mm-dd" -> let y:m:d:xs = map read $ splitOn "-" sdate in fromGregorian (fromIntegral y) m d
+    
+    otherwise    -> undefined    

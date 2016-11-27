@@ -155,7 +155,7 @@ showElem True (R r) = T.pack $ show (R r)
 showElem False (R r) = T.pack $ show r -- "REL(" ++ show (rows2 r) ++ "," ++ show (cols2 r) ++ ")"
 showElem _ (I x) = T.pack $ show x
 
-
+showElem _ (DD x) = T.pack $ show x
 
 showElem _ (D x) = T.pack $ show x
 showElem _ (A x) = T.pack $ show x

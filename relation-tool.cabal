@@ -23,6 +23,7 @@ library
                       , bytestring
                       , boxes
                       -- use the line below when using the Relvar.CSV module
+                      -- , csv-conduit, vector
                       , csv-conduit, vector
                       -- use below when using BoxesT module (Data.Text rather than String)
                       , split
